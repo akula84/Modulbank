@@ -1,0 +1,6 @@
+framework module Pods_Modulbank {
+  umbrella header "Pods-Modulbank-umbrella.h"
+
+  export *
+  module * { export * }
+}
