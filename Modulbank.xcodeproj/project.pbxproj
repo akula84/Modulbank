@@ -7,193 +7,183 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		83335694242A07E0001FF9B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83335693242A07E0001FF9B6 /* AppDelegate.swift */; };
-		83335696242A07E0001FF9B6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83335695242A07E0001FF9B6 /* SceneDelegate.swift */; };
-		83335698242A07E0001FF9B6 /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83335697242A07E0001FF9B6 /* MainController.swift */; };
-		8333569B242A07E0001FF9B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83335699242A07E0001FF9B6 /* Main.storyboard */; };
-		8333569E242A07E0001FF9B6 /* Modulbank.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8333569C242A07E0001FF9B6 /* Modulbank.xcdatamodeld */; };
-		833356A0242A07E1001FF9B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8333569F242A07E1001FF9B6 /* Assets.xcassets */; };
-		833356A3242A07E1001FF9B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 833356A1242A07E1001FF9B6 /* LaunchScreen.storyboard */; };
-		833356B1242A08A2001FF9B6 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833356B0242A08A2001FF9B6 /* Router.swift */; };
-		833356B6242A0946001FF9B6 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833356B4242A0946001FF9B6 /* UIViewController+Extension.swift */; };
-		833356B7242A0946001FF9B6 /* UIViewController+Storyboards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833356B5242A0946001FF9B6 /* UIViewController+Storyboards.swift */; };
-		833356BA242A09BE001FF9B6 /* ActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833356B9242A09BE001FF9B6 /* ActivityIndicatorView.swift */; };
-		833356BC242A0D98001FF9B6 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 833356BB242A0D98001FF9B6 /* Default-568h@2x.png */; };
-		908E5EB985D52B672AB5FAF6 /* Pods_Modulbank.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 422B6FA26E7638B75CC88BFD /* Pods_Modulbank.framework */; };
+		833356ED242A0E67001FF9B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833356EC242A0E67001FF9B6 /* AppDelegate.swift */; };
+		833356F1242A0E67001FF9B6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833356F0242A0E67001FF9B6 /* ViewController.swift */; };
+		833356F4242A0E67001FF9B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 833356F2242A0E67001FF9B6 /* Main.storyboard */; };
+		833356F6242A0E68001FF9B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 833356F5242A0E68001FF9B6 /* Assets.xcassets */; };
+		833356F9242A0E68001FF9B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 833356F7242A0E68001FF9B6 /* LaunchScreen.storyboard */; };
+		83335707242A1054001FF9B6 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83335706242A1054001FF9B6 /* Router.swift */; };
+		8333570C242A105B001FF9B6 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8333570A242A105B001FF9B6 /* UIViewController+Extension.swift */; };
+		8333570D242A105B001FF9B6 /* UIViewController+Storyboards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8333570B242A105B001FF9B6 /* UIViewController+Storyboards.swift */; };
+		83335710242A1087001FF9B6 /* ActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8333570F242A1087001FF9B6 /* ActivityIndicatorView.swift */; };
+		C277B4DB98FA7D96CECF25C5 /* Pods_Modulbank.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C218198915E92CC3CC1EBC34 /* Pods_Modulbank.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		422B6FA26E7638B75CC88BFD /* Pods_Modulbank.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Modulbank.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4643B6CC58D9653338F6155B /* Pods-Modulbank.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Modulbank.debug.xcconfig"; path = "Target Support Files/Pods-Modulbank/Pods-Modulbank.debug.xcconfig"; sourceTree = "<group>"; };
-		83335690242A07E0001FF9B6 /* Modulbank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Modulbank.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		83335693242A07E0001FF9B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		83335695242A07E0001FF9B6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		83335697242A07E0001FF9B6 /* MainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
-		8333569A242A07E0001FF9B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8333569D242A07E0001FF9B6 /* Modulbank.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Modulbank.xcdatamodel; sourceTree = "<group>"; };
-		8333569F242A07E1001FF9B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		833356A2242A07E1001FF9B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		833356A4242A07E1001FF9B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		833356B0242A08A2001FF9B6 /* Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
-		833356B4242A0946001FF9B6 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
-		833356B5242A0946001FF9B6 /* UIViewController+Storyboards.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Storyboards.swift"; sourceTree = "<group>"; };
-		833356B9242A09BE001FF9B6 /* ActivityIndicatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorView.swift; sourceTree = "<group>"; };
-		833356BB242A0D98001FF9B6 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		F48027E3F3DF594506F21147 /* Pods-Modulbank.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Modulbank.release.xcconfig"; path = "Target Support Files/Pods-Modulbank/Pods-Modulbank.release.xcconfig"; sourceTree = "<group>"; };
+		833356E9242A0E67001FF9B6 /* Modulbank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Modulbank.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		833356EC242A0E67001FF9B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		833356F0242A0E67001FF9B6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		833356F3242A0E67001FF9B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		833356F5242A0E68001FF9B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		833356F8242A0E68001FF9B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		833356FA242A0E68001FF9B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83335706242A1054001FF9B6 /* Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		8333570A242A105B001FF9B6 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		8333570B242A105B001FF9B6 /* UIViewController+Storyboards.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Storyboards.swift"; sourceTree = "<group>"; };
+		8333570F242A1087001FF9B6 /* ActivityIndicatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorView.swift; sourceTree = "<group>"; };
+		9A2DE02E4DA14BF10DD91291 /* Pods-Modulbank.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Modulbank.debug.xcconfig"; path = "Target Support Files/Pods-Modulbank/Pods-Modulbank.debug.xcconfig"; sourceTree = "<group>"; };
+		C218198915E92CC3CC1EBC34 /* Pods_Modulbank.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Modulbank.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F37F4AF4DD447BC67A5C32AE /* Pods-Modulbank.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Modulbank.release.xcconfig"; path = "Target Support Files/Pods-Modulbank/Pods-Modulbank.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		8333568D242A07E0001FF9B6 /* Frameworks */ = {
+		833356E6242A0E67001FF9B6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				908E5EB985D52B672AB5FAF6 /* Pods_Modulbank.framework in Frameworks */,
+				C277B4DB98FA7D96CECF25C5 /* Pods_Modulbank.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		059438E3D92545B6974D5E19 /* Frameworks */ = {
+		108D6E2CF410852EACB52279 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				422B6FA26E7638B75CC88BFD /* Pods_Modulbank.framework */,
+				9A2DE02E4DA14BF10DD91291 /* Pods-Modulbank.debug.xcconfig */,
+				F37F4AF4DD447BC67A5C32AE /* Pods-Modulbank.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		81DBB27A14E87BBF28B59E4E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C218198915E92CC3CC1EBC34 /* Pods_Modulbank.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		83335687242A07E0001FF9B6 = {
+		833356E0242A0E67001FF9B6 = {
 			isa = PBXGroup;
 			children = (
-				833356BB242A0D98001FF9B6 /* Default-568h@2x.png */,
-				83335692242A07E0001FF9B6 /* Modulbank */,
-				83335691242A07E0001FF9B6 /* Products */,
-				A87F1103BF6F56814A80EA65 /* Pods */,
-				059438E3D92545B6974D5E19 /* Frameworks */,
+				833356EB242A0E67001FF9B6 /* Modulbank */,
+				833356EA242A0E67001FF9B6 /* Products */,
+				108D6E2CF410852EACB52279 /* Pods */,
+				81DBB27A14E87BBF28B59E4E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		83335691242A07E0001FF9B6 /* Products */ = {
+		833356EA242A0E67001FF9B6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				83335690242A07E0001FF9B6 /* Modulbank.app */,
+				833356E9242A0E67001FF9B6 /* Modulbank.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		83335692242A07E0001FF9B6 /* Modulbank */ = {
+		833356EB242A0E67001FF9B6 /* Modulbank */ = {
 			isa = PBXGroup;
 			children = (
-				833356AA242A07F9001FF9B6 /* Controllers */,
-				833356AB242A0843001FF9B6 /* Models */,
-				833356AC242A084E001FF9B6 /* Views */,
-				833356AD242A0857001FF9B6 /* Library */,
-				833356AE242A0863001FF9B6 /* Application */,
+				83335701242A0FFD001FF9B6 /* Controllers */,
+				83335700242A0FA5001FF9B6 /* Application */,
+				83335702242A102A001FF9B6 /* Library */,
+				83335703242A1033001FF9B6 /* Models */,
+				83335704242A103B001FF9B6 /* Views */,
+				833356F5242A0E68001FF9B6 /* Assets.xcassets */,
 			);
 			path = Modulbank;
 			sourceTree = "<group>";
 		};
-		833356AA242A07F9001FF9B6 /* Controllers */ = {
+		83335700242A0FA5001FF9B6 /* Application */ = {
 			isa = PBXGroup;
 			children = (
-				83335697242A07E0001FF9B6 /* MainController.swift */,
-				83335699242A07E0001FF9B6 /* Main.storyboard */,
+				833356EC242A0E67001FF9B6 /* AppDelegate.swift */,
+				833356F7242A0E68001FF9B6 /* LaunchScreen.storyboard */,
+				833356FA242A0E68001FF9B6 /* Info.plist */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		83335701242A0FFD001FF9B6 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				833356F0242A0E67001FF9B6 /* ViewController.swift */,
+				833356F2242A0E67001FF9B6 /* Main.storyboard */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
 		};
-		833356AB242A0843001FF9B6 /* Models */ = {
+		83335702242A102A001FF9B6 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				83335708242A105B001FF9B6 /* Extentions */,
+				83335705242A1054001FF9B6 /* Managers */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		83335703242A1033001FF9B6 /* Models */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Models;
 			sourceTree = "<group>";
 		};
-		833356AC242A084E001FF9B6 /* Views */ = {
+		83335704242A103B001FF9B6 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				833356B8242A09BE001FF9B6 /* ActivityIndicatorView */,
+				8333570E242A1081001FF9B6 /* ActivityIndicatorView */,
 			);
 			path = Views;
 			sourceTree = "<group>";
 		};
-		833356AD242A0857001FF9B6 /* Library */ = {
+		83335705242A1054001FF9B6 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
-				833356B2242A0936001FF9B6 /* Extentions */,
-				833356AF242A088E001FF9B6 /* Managers */,
-			);
-			path = Library;
-			sourceTree = "<group>";
-		};
-		833356AE242A0863001FF9B6 /* Application */ = {
-			isa = PBXGroup;
-			children = (
-				83335693242A07E0001FF9B6 /* AppDelegate.swift */,
-				83335695242A07E0001FF9B6 /* SceneDelegate.swift */,
-				8333569F242A07E1001FF9B6 /* Assets.xcassets */,
-				833356A1242A07E1001FF9B6 /* LaunchScreen.storyboard */,
-				833356A4242A07E1001FF9B6 /* Info.plist */,
-				8333569C242A07E0001FF9B6 /* Modulbank.xcdatamodeld */,
-			);
-			path = Application;
-			sourceTree = "<group>";
-		};
-		833356AF242A088E001FF9B6 /* Managers */ = {
-			isa = PBXGroup;
-			children = (
-				833356B0242A08A2001FF9B6 /* Router.swift */,
+				83335706242A1054001FF9B6 /* Router.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
 		};
-		833356B2242A0936001FF9B6 /* Extentions */ = {
+		83335708242A105B001FF9B6 /* Extentions */ = {
 			isa = PBXGroup;
 			children = (
-				833356B3242A093D001FF9B6 /* UIViewController */,
+				83335709242A105B001FF9B6 /* UIViewController */,
 			);
 			path = Extentions;
 			sourceTree = "<group>";
 		};
-		833356B3242A093D001FF9B6 /* UIViewController */ = {
+		83335709242A105B001FF9B6 /* UIViewController */ = {
 			isa = PBXGroup;
 			children = (
-				833356B4242A0946001FF9B6 /* UIViewController+Extension.swift */,
-				833356B5242A0946001FF9B6 /* UIViewController+Storyboards.swift */,
+				8333570A242A105B001FF9B6 /* UIViewController+Extension.swift */,
+				8333570B242A105B001FF9B6 /* UIViewController+Storyboards.swift */,
 			);
 			path = UIViewController;
 			sourceTree = "<group>";
 		};
-		833356B8242A09BE001FF9B6 /* ActivityIndicatorView */ = {
+		8333570E242A1081001FF9B6 /* ActivityIndicatorView */ = {
 			isa = PBXGroup;
 			children = (
-				833356B9242A09BE001FF9B6 /* ActivityIndicatorView.swift */,
+				8333570F242A1087001FF9B6 /* ActivityIndicatorView.swift */,
 			);
-			name = ActivityIndicatorView;
-			path = ../../../../WorkLuxoft/TheInvaders/Heineken/heineken/Presentation/Common/Views/ActivityIndicatorView;
-			sourceTree = "<group>";
-		};
-		A87F1103BF6F56814A80EA65 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				4643B6CC58D9653338F6155B /* Pods-Modulbank.debug.xcconfig */,
-				F48027E3F3DF594506F21147 /* Pods-Modulbank.release.xcconfig */,
-			);
-			path = Pods;
+			path = ActivityIndicatorView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8333568F242A07E0001FF9B6 /* Modulbank */ = {
+		833356E8242A0E67001FF9B6 /* Modulbank */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 833356A7242A07E1001FF9B6 /* Build configuration list for PBXNativeTarget "Modulbank" */;
+			buildConfigurationList = 833356FD242A0E68001FF9B6 /* Build configuration list for PBXNativeTarget "Modulbank" */;
 			buildPhases = (
-				D1AEE37D17C500448FED9E97 /* [CP] Check Pods Manifest.lock */,
-				8333568C242A07E0001FF9B6 /* Sources */,
-				8333568D242A07E0001FF9B6 /* Frameworks */,
-				8333568E242A07E0001FF9B6 /* Resources */,
-				65A31CD96DC114F495334762 /* [CP] Embed Pods Frameworks */,
+				1858F504CD9246D2C7EE1BF5 /* [CP] Check Pods Manifest.lock */,
+				833356E5242A0E67001FF9B6 /* Sources */,
+				833356E6242A0E67001FF9B6 /* Frameworks */,
+				833356E7242A0E67001FF9B6 /* Resources */,
+				1D862998BF29AAA2F35EED25 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -201,25 +191,25 @@
 			);
 			name = Modulbank;
 			productName = Modulbank;
-			productReference = 83335690242A07E0001FF9B6 /* Modulbank.app */;
+			productReference = 833356E9242A0E67001FF9B6 /* Modulbank.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		83335688242A07E0001FF9B6 /* Project object */ = {
+		833356E1242A0E67001FF9B6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1130;
 				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = "Артем Кулагин";
 				TargetAttributes = {
-					8333568F242A07E0001FF9B6 = {
+					833356E8242A0E67001FF9B6 = {
 						CreatedOnToolsVersion = 11.3.1;
 					};
 				};
 			};
-			buildConfigurationList = 8333568B242A07E0001FF9B6 /* Build configuration list for PBXProject "Modulbank" */;
+			buildConfigurationList = 833356E4242A0E67001FF9B6 /* Build configuration list for PBXProject "Modulbank" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -227,49 +217,31 @@
 				en,
 				Base,
 			);
-			mainGroup = 83335687242A07E0001FF9B6;
-			productRefGroup = 83335691242A07E0001FF9B6 /* Products */;
+			mainGroup = 833356E0242A0E67001FF9B6;
+			productRefGroup = 833356EA242A0E67001FF9B6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8333568F242A07E0001FF9B6 /* Modulbank */,
+				833356E8242A0E67001FF9B6 /* Modulbank */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		8333568E242A07E0001FF9B6 /* Resources */ = {
+		833356E7242A0E67001FF9B6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				833356A3242A07E1001FF9B6 /* LaunchScreen.storyboard in Resources */,
-				833356BC242A0D98001FF9B6 /* Default-568h@2x.png in Resources */,
-				833356A0242A07E1001FF9B6 /* Assets.xcassets in Resources */,
-				8333569B242A07E0001FF9B6 /* Main.storyboard in Resources */,
+				833356F9242A0E68001FF9B6 /* LaunchScreen.storyboard in Resources */,
+				833356F6242A0E68001FF9B6 /* Assets.xcassets in Resources */,
+				833356F4242A0E67001FF9B6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		65A31CD96DC114F495334762 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Modulbank/Pods-Modulbank-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Modulbank/Pods-Modulbank-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Modulbank/Pods-Modulbank-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D1AEE37D17C500448FED9E97 /* [CP] Check Pods Manifest.lock */ = {
+		1858F504CD9246D2C7EE1BF5 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -291,39 +263,54 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		1D862998BF29AAA2F35EED25 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Modulbank/Pods-Modulbank-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Modulbank/Pods-Modulbank-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Modulbank/Pods-Modulbank-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8333568C242A07E0001FF9B6 /* Sources */ = {
+		833356E5242A0E67001FF9B6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				833356B6242A0946001FF9B6 /* UIViewController+Extension.swift in Sources */,
-				833356B7242A0946001FF9B6 /* UIViewController+Storyboards.swift in Sources */,
-				83335698242A07E0001FF9B6 /* MainController.swift in Sources */,
-				833356BA242A09BE001FF9B6 /* ActivityIndicatorView.swift in Sources */,
-				83335694242A07E0001FF9B6 /* AppDelegate.swift in Sources */,
-				833356B1242A08A2001FF9B6 /* Router.swift in Sources */,
-				83335696242A07E0001FF9B6 /* SceneDelegate.swift in Sources */,
-				8333569E242A07E0001FF9B6 /* Modulbank.xcdatamodeld in Sources */,
+				8333570C242A105B001FF9B6 /* UIViewController+Extension.swift in Sources */,
+				833356F1242A0E67001FF9B6 /* ViewController.swift in Sources */,
+				83335707242A1054001FF9B6 /* Router.swift in Sources */,
+				83335710242A1087001FF9B6 /* ActivityIndicatorView.swift in Sources */,
+				8333570D242A105B001FF9B6 /* UIViewController+Storyboards.swift in Sources */,
+				833356ED242A0E67001FF9B6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		83335699242A07E0001FF9B6 /* Main.storyboard */ = {
+		833356F2242A0E67001FF9B6 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				8333569A242A07E0001FF9B6 /* Base */,
+				833356F3242A0E67001FF9B6 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		833356A1242A07E1001FF9B6 /* LaunchScreen.storyboard */ = {
+		833356F7242A0E68001FF9B6 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				833356A2242A07E1001FF9B6 /* Base */,
+				833356F8242A0E68001FF9B6 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -331,7 +318,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		833356A5242A07E1001FF9B6 /* Debug */ = {
+		833356FB242A0E68001FF9B6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -391,7 +378,7 @@
 			};
 			name = Debug;
 		};
-		833356A6242A07E1001FF9B6 /* Release */ = {
+		833356FC242A0E68001FF9B6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -445,9 +432,9 @@
 			};
 			name = Release;
 		};
-		833356A8242A07E1001FF9B6 /* Debug */ = {
+		833356FE242A0E68001FF9B6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4643B6CC58D9653338F6155B /* Pods-Modulbank.debug.xcconfig */;
+			baseConfigurationReference = 9A2DE02E4DA14BF10DD91291 /* Pods-Modulbank.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -458,16 +445,16 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.Modulbank.TestWork;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TestWork.Modulbank;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		833356A9242A07E1001FF9B6 /* Release */ = {
+		833356FF242A0E68001FF9B6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F48027E3F3DF594506F21147 /* Pods-Modulbank.release.xcconfig */;
+			baseConfigurationReference = F37F4AF4DD447BC67A5C32AE /* Pods-Modulbank.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -478,7 +465,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.Modulbank.TestWork;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TestWork.Modulbank;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -488,38 +475,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8333568B242A07E0001FF9B6 /* Build configuration list for PBXProject "Modulbank" */ = {
+		833356E4242A0E67001FF9B6 /* Build configuration list for PBXProject "Modulbank" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				833356A5242A07E1001FF9B6 /* Debug */,
-				833356A6242A07E1001FF9B6 /* Release */,
+				833356FB242A0E68001FF9B6 /* Debug */,
+				833356FC242A0E68001FF9B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		833356A7242A07E1001FF9B6 /* Build configuration list for PBXNativeTarget "Modulbank" */ = {
+		833356FD242A0E68001FF9B6 /* Build configuration list for PBXNativeTarget "Modulbank" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				833356A8242A07E1001FF9B6 /* Debug */,
-				833356A9242A07E1001FF9B6 /* Release */,
+				833356FE242A0E68001FF9B6 /* Debug */,
+				833356FF242A0E68001FF9B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		8333569C242A07E0001FF9B6 /* Modulbank.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				8333569D242A07E0001FF9B6 /* Modulbank.xcdatamodel */,
-			);
-			currentVersion = 8333569D242A07E0001FF9B6 /* Modulbank.xcdatamodel */;
-			path = Modulbank.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
-	rootObject = 83335688242A07E0001FF9B6 /* Project object */;
+	rootObject = 833356E1242A0E67001FF9B6 /* Project object */;
 }

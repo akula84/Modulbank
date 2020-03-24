@@ -8,10 +8,12 @@
 
 import UIKit
 
-class MainController: UIViewController {
+class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        Router.showLoader()
+        Router.removeLoader()
         // Do any additional setup after loading the view.
     }
 
