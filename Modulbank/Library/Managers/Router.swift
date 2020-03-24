@@ -1,7 +1,5 @@
 import UIKit
 
-typealias EmptyBlock = () -> Void
-
 class Router {
     static let shared = Router()
 

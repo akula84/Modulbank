@@ -1,0 +1,990 @@
+/* 
+  Localizable.strings
+  MPM
+
+  Created by Vladimir on 02/07/2018.
+  Copyright © 2018 Bell Integrator. All rights reserved.
+*/
+
+// MARK: Titles
+
+"title.Home" = "Мобильное рабочее место";
+"title.Service parameters" = "Параметры сервисов";
+"title.ClientsOrgType" = "Тип клиента";
+"title.DealDetails" = "Сделка №";
+"title.Deals" = "Сделки";
+"title.ClientContacts" = "Клиент";
+"title.ClientBranches" = "Филиалы";
+"title.ContractType" = "Новый договор";
+"title.NewContract" = "Новый договор";
+"title.NewScala" = "Новая SCALA";
+"title.EditContract" = "Данные договора";
+"title.EditScala" = "Данные SCALA";
+
+"title.Products" = "Продукты";
+"title.FormList" = "Выбор";
+"title.ProductBO" = "Продуктовые BO";
+"title.CardBO" = "BO";
+
+
+// MARK: Home Screen
+"Global Search" = "Глобальный поиск";
+"Draft" = "Черновик";
+"Drafts 2-4" = "Черновика";
+"Drafts 5-0" = "Черновиков";
+"New Client" = "Создать клиента";
+"Client list" = "Поиск клиента";
+"Contacts" = "Контакты";
+"New Contract" = "Создать сделку";
+"new_deal" = "Новая сделка";
+"data_deal" = "Данные сделки";
+"Contract list" = "Поиск сделки";
+"Contracts in progress" = "Мои проекты в работе";
+"All products" = "Все продукты";
+"Calendar" = "События/Календарь";
+"Messages" = "Сообщения";
+"Reports" = "Отчеты";
+"Issues" = "Инциденты";
+"Maps" = "Карты";
+"Business center" = "Бизнес-центр";
+"Service operations menu" = "Сервисные операции";
+"Alerts button" = "Обращения";
+"Tasks button" = "Задания";
+
+"title_clients" = "Клиенты";
+"title_client_details_client" = "Клиент";
+"title_client_details_potential_client" = "Потенциальный клиент";
+
+"offline_warning_title" = "Внимание!";
+"offline_warning_message" = "Сделка создана в режиме офф-лайн и требует\nподтверждения при выходе устройства в режиме он-лайн";
+"popup_error_title" = "Ошибка!";
+"popup_error_contracts_loading_message" = "Не удалось загрузить контракты";
+"popup_error_contract_details_loading_message" = "Не удалось загрузить информацию о контракте";
+"popup_error_scala_loading_message" = "Не удалось загрузить SCALA";
+"popup_error_client_loading_message" = "Не удалось загрузить информацию о клиенте";
+"popup_error_scala_details_loading_message" = "Не удалось загрузить информацию о SCALA";
+"popup_error_required_fields" = "Необходимо заполнить все обязательные поля.";
+"popup_error_client_contacts_loading_message" = "Не удалось загрузить контакты";
+"popup_error_client_addresses_loading_message" = "Не удалось загрузить адреса";
+"popup_error_client_message_loading_message" = "Не удалось загрузить сообщения";
+
+"popup_update_available.title" = "Доступно обновление";
+"popup_update_available.message" = "Хотите установить новую версию приложения?";
+"popup_update_available.action_update" = "Обновить";
+"popup_update_available.action_not_now" = "Не сейчас";
+"popup_update_available.no_updates" = "Установлена последняя версия приложения";
+
+"client_cell_contracts" = "Договора";
+"client_cell_bans" = "BAN";
+"client_cell_empty" = "Нет";
+"client_cell_loading" = "Загружается...";
+"common.ok" = "ОК";
+
+"key_contact" = "Ключевой контакт";
+"all_contacts" = "Все контакты";
+
+"client_addresses_contact_address" = "Контактный адрес";
+"client_addresses_other_addresses" = "Другие адреса";
+// MARK: Clients
+
+"not_found" = "Ничего не найдено";
+"last_searches" = "Последние запросы";
+
+"client_title_search_mode" = "Выбор клиента";
+"client_title_recent_requests_mode" = "Укажите клиента";
+
+"client_info_submit_draft" = "Подтвердить";
+"client_info_remove_draft" = "Удалить черновик";
+"client_info_submit_all_drafts" = "Подтвердить все черновики";
+
+// MARK: ClientInfo -> Key info
+"client_info_clientTypeEnum" = "Тип клиента";
+"client_info_clientName" = "Название клиента";
+"client_info_mainBranchName" = "Филиал Штаб-квартиры";
+"client_info_segmentName" = "Сегмент";
+"client_info_clientCharacterName" = "Характеристика";
+"client_info_officialStatusName" = "Официальный статус";
+"client_info_trademark" = "Торговая марка";
+"client_info_orgFormName" = "Форма организации";
+"client_info_clientShortName" = "Краткое наименование компании";
+"client_info_inn" = "ИНН";
+"client_info_www" = "WWW";
+"client_info_clientID" = "ID клиента";
+"client_info_clientSM" = "Сервис-менеджер";
+"client_info_personalManager" = "Личный оператор";
+"client_info_contactPhone" = "Телефон контакта";
+"client_info_contactPhone2" = "Телефон контакта 2";
+"client_info_contactEmail" = "E-mail контакта";
+"client_info_companyGroupName" = "Группа компаний";
+
+// MARK: ClientInfo -> Requisites
+"client_info_branchName" = "Филиал";
+"client_info_infSourceName" = "Источник информации";
+"client_info_legalAddressName" = "Юридический адрес";
+"client_info_contactAddressName" = "Контактный адрес";
+"client_info_clientDateReg" = "Дата регистрации";
+"client_info_okvedCodeName" = "Основной ОКВЭД";
+"client_info_okvedCode" = "Основной ОКВЭД";
+"client_info_ogrn" = "ОГРН";
+"client_info_okpo" = "ОКПО";
+"client_info_kpp" = "КПП";
+"client_info_createDate" = "Дата создания";
+"client_info_createUser" = "Кем создан";
+"client_info_sparkLiquidationDate" = "Дата ликвидации (СПАРК)";
+"client_info_sparkCauseLiquidation" = "Причина ликвидации (СПАРК)";
+"client_info_operatorConnectEnum" = "Оператор связи";
+"client_info_carrierTypeName" = "Тип оператора";
+
+
+// MARK: ClientInfo -> Contacts
+"client_info_contactLastName" = "Контакт";
+"client_info_contactPhone" = "Телефон контакта";
+"client_info_contactEmail" = "E-mail контакта";
+"client_info_firstName" = "Имя контактного лица";
+"client_info_lastName" = "Фамилия контактного лица";
+
+// MARK: ClientInfo enums
+"client_info_official_status_0" = "Резидент";
+"client_info_official_status_1" = "Не резидент";
+"client_info_official_status_2" = "Дип. представительство";
+
+"client_info_communication_operator_0" = "нет";
+"client_info_communication_operator_1" = "да";
+
+"client_info_client_type_0" = "Юридическое лицо";
+"client_info_client_type_1" = "Физическое лицо";
+"client_info_client_type_2" = "ИП";
+
+// MARK: ClientDetailsViewController -> Section
+
+"client_details_section_keyData" = "Ключевые данные";
+"client_details_section_requisites" = "Реквизиты";
+"client_details_section_bans" = "Договоры";
+"client_details_section_addresses" = "Адреса";
+"client_details_section_contacts" = "Контакты";
+"client_details_section_contact" = "Контактное лицо";
+"client_details_section_history" = "История";
+"client_details_section_deals" = "Сделки";
+"client_details_section_branches" = "Филиалы";
+
+"client_addresses_add_new" = "Добавить новый";
+
+"search_last_requests" = "Последние запросы";
+"search_not_found" = "Ничего не найдено. Уточните условия поиска.";
+
+"button_new_contact" = "Создать контакт";
+
+"new_contract_scala_submit_button" = "Сохранить";
+
+"form_editing_warning_title" = "Данные будут потеряны";
+"form_editing_warning_message" = "Вы уверены, что хотите покинуть страницу?";
+"form_editing_warning_yes" = "Да";
+"form_editing_warning_no" = "Нет";
+
+"form_editing_validation_error_title" = "Внимание";
+"form_editing_validation_error_message" = "Необходимо заполнить все обязательные поля";
+
+"contracts_check_inn_message" = "Не введен ИНН. Вы уверены, что клиент нерезидент?";
+"contracts_check_inn_yes" = "Да";
+"contracts_check_inn_cancel" = "Отмена";
+"contracts_check_inn_warning_title" = "Сообщение";
+"contracts_check_inn_warning_message" = "Создан кейс в ЦК на регистрацию договора без ИНН";
+
+
+"form_editing_validation_required_field" = "Обязательное поле";
+"form_editing_validation_invalid_value" = "Невалидное значение";
+
+"form_submission_generic_error" = "Не удалось отправить форму";
+"contract_section_title" = "Договор";
+"scala_section_title" = "SCALA";
+
+
+// MARK: CreateAddressViewController
+"create_address_default_title" = "Адрес";
+"create_address_empty_field" = "Заполните поле \"Адрес\"";
+"create_address_cannot_parse_address" = "Невозможно разобрать адрес";
+"form_choice_empty" = "Пусто (ничего не выбрано)";
+"address_types.installation" = "Инсталляционный";
+"address_types.billing" = "Биллинговый";
+"address_types.legal" = "Юридический";
+"address_types.post" = "Почтовый";
+"address_types.physical" = "Фактический";
+"address_types.uzelGK" = "Узел ГК";
+"address_types.businessCenter" = "Бизнес Центр";
+
+// MARK: FindAddress
+"find_address.address_not_found" = "Указанный адрес не найден в адресах клиента. Хотите создать новый?";
+"find_address.found_address" = "Найденный адрес";
+"find_address.address_already_exists" = "Указанный адрес уже существует";
+"find_address.create_new_address" = "Создать новый адрес";
+"find_address.attention" = "Внимание!";
+"find_address.address_undefined" = "Адрес не определен.\nХотите создать запрос на добавление адреса?";
+
+// MARK: NewAddressRequest
+"new_address_req.title" = "Создание запроса";
+"new_address_req.time_info" = "Срок исполнения запроса — 24 часа";
+"new_address_req.request_successfully_created" = "Вы успешно создали запрос на добавление адреса. Срок испонения запроса — 24 часа.";
+"new_address_req.request_unsuccessfull" = "Запрос на добавление адреса не создан.\nПопробуйте в другой раз.";
+"new_address_req.error_files_count" = "Количество файлов не может превышать %d";
+"new_address_req.error_filesizes_exceed" = "Суммарный размер файлов превышает %d Мб";
+"new_address_req.title_complete" = "Запрос создан";
+"new_address_req.error_files_count" = "Количество файлов не может превышать %d";
+"new_address_req.error_filesizes_exceed" = "Суммарный размер файлов превышает %d Мб";
+
+// MARK: FileSize
+"file_size.bytes" = "байт";
+"file_size.kbytes" = "Кб";
+"file_size.mbytes" = "Мб";
+"file_size.gbytes" = "Гб";
+"file_size.tbytes" = "Тб";
+
+// MARK: Errors
+"errors.not_implemented_yet" = "Не реализовано";
+
+// MARK: Contracts
+"title_contracts" = "Клиент";
+"title_contract_details" = "Карточка договора/ban";
+"title_scala" = "SCALA";
+"title_scala_details" = "SCALA";
+"header_contracts" = "Договора";
+"button_new_contract" = "Создать новый договор/BAN";
+"contract_details_signed_date" = "Подписан";
+"scala_creation_date" = "Создан";
+"contract_details_keyInfo" = "Ключевая информация";
+"contract_details_contacts" = "Контакты";
+"contract_details_contact" = "Контактное лицо";
+"contract_details_requisites" = "Реквизиты";
+"contract_details_collection" = "Collection";
+"My сlients" = "Мои клиенты";
+"Clients region" = "Клиенты региона";
+"Clients segment" = "Клиенты сегмента";
+"Individual" = "Физическое лицо";
+
+// MARK: ContractInfo -> Key Information
+"contract_info_clientId" = "ID Клиента";
+"contract_info_clientName" = "Название клиента";
+"contract_info_contractClientName" = "Имя договора";
+"contract_info_contractNumber" = "Номер договора";
+"contract_info_salesManagerName" = "Продавец";
+"contract_info_contractTypeSFName" = "Тип договора";
+"contract_info_breakDate" = "Дата закрытия договора";
+"contract_info_breakCauseName" = "Причина закрытия";
+"contract_info_branch" = "Филиал";
+
+// MARK: ContractInfo -> Requisites
+"contract_info_id" = "ID договора";
+"contract_info_signedDate" = "Дата подписания";
+"contract_info_crossClientID" = "Cross Client ID";
+"contract_info_uSFName" = "USF";
+"contract_info_aBHEnum" = "ABH";
+"contract_info_aBHId" = "ABH";
+"contract_info_contractInvoiceName" = "№ Договора с Поставщиком";
+"contract_info_contractInvoiceId" = "№ Договора с Поставщиком";
+"contract_info_contractInvoiceClientName" = "№ Договора с Поставщиком (Название клиента)";
+"contract_info_sendDataToExtame" = "Передача данных внешним БД";
+"contract_info_vat" = "НДС";
+"contract_info_profitName" = "Доходность";
+"contract_info_profitID" = "Доходность";
+"contract_info_setFineName" = "Выставлять пени";
+"contract_info_fineTypeName" = "Тип пени";
+"contract_info_fine" = "Процент пени";
+"contract_info_fineWarrantNumber" = "№ Служебной записки";
+"contract_info_penyRFRName" = "Доля ставки рефинансирования 1/";
+"contract_info_invoicePayPeriod" = "Срок оплаты счёта";
+"contract_info_businnesUnitName" = "Бизнес-юнит";
+"contract_info_supplierName" = "Биллинговая система";
+"contract_info_billingCycleName" = "Биллинговый цикл";
+"contract_info_billingCycleCode" = "Биллинговый цикл";
+"contract_info_segmentName" = "Сегмент";
+"contract_info_serviceLevelName" = "Уровень обслуживания/Лояльность";
+"contract_info_operLicenseId" = "Лицензия оператора";
+"contract_info_joinLevelId" = "Уровень присоединения";
+"contract_info_agreePrivateInfoName" = "Согласие на предоставление сведений";
+"contract_info_agreePrivateInfoId" = "Согласие на предоставление сведений";
+"contract_info_bank" = "Банк";
+"contract_info_account" = "Счёт";
+"contract_info_bik" = "БИК";
+"contract_info_corrAccount" = "Корр. счет";
+"contract_info_kpp" = "КПП";
+"contract_info_dealPassport" = "Паспорт сделки";
+"contract_info_dealBank" = "Банк сделки";
+
+// MARK: ContractInfo -> Collection
+"contract_info_balance" = "Баланс";
+
+// MARK: ContractInfo -> Contacts
+"contract_info_contactName" = "Контакт по договору";
+
+"scala_details_keyInfo" = "Ключевая информация";
+"scala_details_requisites" = "Реквизиты";
+"scala_details_contact" = "Контактное лицо";
+"scala_details_contract" = "Договор";
+
+"deal_kind_deal" = "Сделка";
+"deal_kind_order" = "Заказ";
+
+// MARK: ScalaInfo -> Key info
+"scala_info_clientName" = "Haзвание клиента";
+"scala_info_nDSTariffName" = "Тарифы с НДС";
+"scala_info_govContractId" = "Идентификатор госконтракта";
+"scala_info_oppCoopLVLTPName" = "Уровень взаимодействующих узлов оператора";
+"scala_info_billingCurrencyName" = "Валюта счета";
+"scala_info_tariffsCurrencyName" = "Валюта тарифов";
+"scala_info_finFilialName" = "Филиал";
+"scala_info_agentCollectorName" = "Агент-коллектор";
+"scala_info_agentCollectorClientName" = "Агент-коллектор (Название клиента)";
+"scala_info_pMNCode" = "PMN-код";
+"scala_info_clirInvFTPName" = "Счета для клирингового дома (ftp)";
+"scala_info_closeDate" = "Дата закрытия матрицы счета (Scala)";
+"scala_info_breakCauseName" = "Причина закрытия";
+
+// MARK: ScalaInfo -> Requisites
+"scala_info_speedCollectAccount" = "Speed Collect Account";
+"scala_info_billingAddressName" = "Адрес выставления счета";
+"scala_info_billingAddressId" = "Адрес выставления счета";
+"scala_info_billingContactName" = "Получатель счета";
+"scala_info_billingContactId" = "Получатель счета";
+"scala_info_invoicePrintName" = "Счет печатает из";
+"scala_info_invoicePrintId" = "Счет печатает из";
+
+"scala_info_invoiceSendToName" = "Счет отправлять в";
+"scala_info_invoiceSendToId" = "Счет отправлять в";
+
+"scala_info_voiceTrafDetailsName" = "Детализация голосового МГ/МН трафика";
+"scala_info_voiceTrafDetailsId" = "Детализация голосового МГ/МН трафика";
+
+"scala_info_emailForDetails" = "E-mail для отправки детализации";
+"scala_info_invoiceDeliveryName" = "Способ доставки счета";
+"scala_info_invoiceDeliveryId" = "Способ доставки счета";
+
+"scala_info_emailInvoiceDelivery" = "E-mail доставки счета";
+"scala_info_showDIDALexpandedName" = "Отображать DID/АЛ в счете развернуто";
+"scala_info_showDIDALexpandedId" = "Отображать DID/АЛ в счете развернуто";
+
+"scala_info_uBGName" = "Предоставляется УБГ для 001/900";
+"scala_info_uBGId" = "Предоставляется УБГ для 001/900";
+"scala_info_intDomName" = "Освобожден от НДС";
+"scala_info_billLanguageName" = "Язык счета";
+"scala_info_billLanguageId" = "Язык счета";
+"scala_info_costBillingSystemName" = "Cost Billing System";
+"scala_info_revenueBillingSystemName" = "Revenue Billing System";
+"scala_info_qoSName" = "QoS";
+"scala_info_specifyConsumerName" = "Указание потребителя";
+"scala_info_specifyConsumerId" = "Указание потребителя";
+"scala_info_smsNotificationsEnum" = "СМС оповещения по проекту";
+"scala_info_ringUpPhone" = "Телефон для автооповещения";
+"scala_info_ringUpEMail" = "E-mail";
+"scala_info_digitalSignatureEnum" = "Электронный документооборот";
+"scala_info_digitalSignature" = "Электронный документооборот";
+"scala_info_clientLastName" = "Фамилия";
+"scala_info_clientFirstName" = "Имя";
+"scala_info_clientMiddleName" = "Отчество";
+"scala_info_clientEmail" = "Email";
+"scala_info_clientPhone" = "Телефон";
+"scala_info_digitalSignatureDate" = "Действует с";
+"scala_info_digitalSignatureId" = "Идентификатор участника ЭДО";
+"scala_info_scalaNumber" = "№ SCALA местная (зоновая) связь";
+"scala_info_scalaNumberVKId" = "№ SCALA местная (зоновая) связь";
+"scala_info_scalaNumberVKName" = "№ SCALA местная (зоновая) связь";
+"scala_info_scalaNumberMGMNName" = "№ SCALA МГ/МН (зоновая) связь";
+"scala_info_trafficTypeName" = "Распределение услуг";
+"scala_info_trafficTypeId" = "Распределение услуг";
+"scala_info_oppCoopLVLTPId" = "Уровень взаимодействующих узлов оператора";
+"scala_info_breakCauseId" = "Причина закрытия";
+
+
+//MARK: Deal Advanced search
+"all" = "Все";
+"status.inWork" = "В работе";
+"status.stopped" = "Приостановлена";
+"status.closed" = "Закрыта";
+"status.notImplemented" = "Не реализована";
+"status.blocked" = "Заблокирована";
+
+"perod.year" = "За последний год";
+"perod.quarter" = "За последний квартал";
+"perod.days90" = "За последние 90 дней";
+
+"perod.month3" = "За последние 3 месяца";
+"perod.month" = "За последний месяц";
+
+"type1.fixPostSale" = "Допродажа fix";
+
+"type2.notInit" = "Неинициированнная";
+
+"projectStatus.design" = "Проектирование";
+"projectStatus.designCompleted" = "Проектирование завершено";
+"projectStatus.implementation" = "Реализация";
+"projectStatus.implementationCompleted" = "Завершена реализация";
+"projectStatus.specifyingTheInstallationAddress" = "Уточнение адреса инсталляции";
+
+"myDeals.drafts" = "Черновики";
+
+"form_list_cancel_button" = "Отмена";
+
+"form_item_fine" = "Процент";
+"form_item_rfr" = "Ставка рефинансирования";
+
+// MARK: Create Deal
+"Selected"  = "Выбран";
+"Selected plural"  = "Выбрано";
+"Service" = "сервис";
+"Service 2-4" = "сервиса";
+"Service 5-0" = "сервисов";
+"Deal" = "Сделка";
+"Create Deal" = "Создать сделку";
+"Check status spark" = "Проверить статус в СПАРК";
+"caption.product_name" = "Название продукта";
+"caption.installation_address" = "Адрес инсталляции";
+"caption.okn" = "ОКН";
+"caption.fee_type" = "Схема комиссии";
+"caption.user" = "Потребитель";
+"caption.bo_comment" = "Комментарий для BO";
+"caption.one_time_fee" = "Цена единовременно";
+"caption.monthly_fee" = "Цена ежемесячно";
+"caption.one_time_discount" = "Скидка на единовременный платеж";
+"caption.monthly_discount" = "Скидка на ежемесячный платеж";
+"caption.sz_id" = "Номер СЗ";
+"caption.one_time_total" = "Итого единовременно";
+"caption.monthly_total" = "Итого ежемесячно";
+"caption.action" = "Действие";
+"caption.action_date" = "Дата действия";
+"caption.comments" = "Комментарии";
+"caption.separate_install_invoice" = "Отдельный счет за инсталляцию";
+"caption.billing_id" = "BillingID";
+"errors.field_cannot_be_empty" = "Это поле не может быть пустым";
+"change client" = "Сменить клиента";
+"add product" = "Добавить продукт";
+"Check Data" = "Проверьте данные";
+"Project registration" = "Оформление проекта";
+"Send_to_arc_button" = "Отправить в проектирование";
+"cancel_edit_deal" = "Отменить редактирование";
+"more_than_three_months" = "От выбранной даты прошло более 3 месяцев";
+"less_than_three_months" = "Указана дата меньше текущей";
+"less_than_c_date" = "Указана дата меньше текущей";
+"max_dicount_exeeded" = "Скидка превышат максимальный размер, необходимо выпустить СЗ на ее согласование";
+"discount_is_out_of_range" = "Значение от 0 до 100";
+"sz_limitation" = "Только цифры и /";
+
+// MARK: Create client
+"Create client title" = "Новый клиент";
+"INN label caption" = "Новый клиент";
+"Client's Data" = "Данные клиента";
+"Key data" = "Ключевые данные";
+"Client's name" = "Название клиента";
+"Contact" = "Контакт";
+"Contact's phone" = "Телефон контакта";
+"Character" = "Характеристика";
+"Information source" = "Источник информации";
+"Trademark" = "Торговая марка";
+"Organization form" = "Форма организации";
+"Company short name" = "Краткое наименование компании";
+"INN" = "ИНН";
+"WWW" = "WWW";
+"Base OKVED" = "Основной ОКВЭД";
+"OGRN" = "ОГРН";
+"OKPO" = "ОКПО";
+"KPP" = "КПП";
+"Contact's email" = "E-mail контакта";
+"create_client_contact_address" = "Контактный адрес";
+"create_client_juridical_address" = "Юридический адрес";
+"create_client_operator" = "Оператор связи";
+"create_client_operator_type" = "Тип оператора";
+"create_client_reg_date" = "Дата регистрации";
+"create_client_select_okved" = "Выберите ОКВЭД";
+"Not selected" = "Не задан";
+"From client" = "Передача от клиента";
+"Active search" = "Активный поиск";
+"Undefined" = "Не определено";
+"Cannot save draft" = "Невозможно сохранить черновик";
+"create_client.not_found_in_spark" = "Создаваемый клиент не найден в СПАРК";
+"create_client.not_found" = "Клиент не найден";
+"create_client.continue_step" = "Продолжить";
+
+"create_client.not_found_inn_in_spark" = "Клиент с ИНН %@ не найден в СПАРК";
+
+"create_client.incorrect_inn" = "Это поле заполнено некорректно";
+"create_client.incorrect_inn_checmsumm" = "Введен некорректный ИНН! Проверьте правильность введенного ИНН";
+"create_client.incorrect_inn_length" = "Введен некорректный ИНН! ИНН должен содержать %d символов для типа клиента %@";
+"create_client.inn_error" = "Это поле заполнено некорректно";
+"create_client.field_contains_error" = "Поле заполнено с ошибками";
+"create_client.client_exists.title" = "Клиент существует";
+"create_client.client_exists.message" = "Такой клиент существует. Вы можете создать с ним сделку или перейти в карточку клиента.";
+"create_client.client_inn_exists.message" = "Клиент с ИНН %@ %@ уже существует. Вы можете перейти в карточку клиента или ввести другой ИНН.";
+"create_client.client_inn_exists.enter_new_inn" = "Ввести другой ИНН";
+"create_client.client_inn_exists.cancel_registration" = "Отменить создание клиента";
+
+
+"create_client.client_exists.create_deal" = "Создать сделку";
+"create_client.client_exists.goto_card" = "Перейти в карточку клиента";
+"create_client.inn_validation_error" = "Клиент не может быть резидентом, т.к. не заполнены поля:";
+"create_client.spark_liquidated_header" = "Клиент ликвидирован";
+"create_client.spark_liquidated" = "Клиент с ИНН %@ %@ ликвидирован %@ (по данным СПАРК)";
+"create_client.yes_not_available" = "Значение «Да» недоступно для данного клиента";
+
+// MARK: Create client error messages
+"Error" = "Ошибка";
+"OKVEDs list unavailable" = "Список кодов ОКВЭД недоступен";
+"Orgforms list unavailable" = "Список организационных форм недоступен";
+"Carrier types list unavailable" = "Список типов операторов недоступен";
+"Internal error" = "Внутренняя ошибка";
+"Internal server error" = "Внутренняя ошибка сервера";
+"Unknown server error" = "Неизвестная ошибка сервера";
+"This is required field" = "Поле обязательное";
+"Email or phone required" = "Заполните контактный телефон или email";
+"First or last name required" = "Заполните имя или фамилию контакта";
+"Field contains errors" = "Поле заполнено с ошибками";
+
+"Advanced Search" = "Расширенный поиск";
+
+"isInDeal_false" = "Вы не можете создать сделку с данным продуктом";
+"Cancel" = "Отмена";
+"cannot_submit_draft" = "Невозможно подтвердить черновик";
+"cannot_remove_draft" = "Невозможно удалить черновик";
+"cannot_submit_all_drafts" = "Внимание! Необходимо исправить ошибки в черновиках";
+"all_drafts_submitted" = "Все клиенты подтверждены успешно";
+
+"Synchronization with SPARC is complete" = "Синхронизация со СПАРК выполнена";
+
+
+"yes_no_0" = "Нет";
+"yes_no_1" = "Да";
+"Yes" = "Да";
+"No" = "Нет";
+
+"Permission error" = "Операция недоступна для Вашей роли в системе.";
+"Send implementation" = "Отправить в реализацию";
+
+"deal_card_context_menu_confirm" = "Подтвердить";
+"deal_card_context_menu_edit" = "Редактировать";
+"deal_card_context_menu_delete_draft" = "Удалить черновик";
+
+"Select contract" = "Выбрать договор";
+"Can_Change_Select_contract" = "Выбор договора недоступен для Вас";
+"Can_Change_Select_SCALA" = "Выбор SCALA недоступен для Вас";
+
+"Back" = "Назад";
+"Next" = "Далее";
+"Create Customer" = "Создать клиента";
+"Confirm" = "Подтвердить";
+"Save" = "Сохранить";
+"Edit" = "Редактировать";
+
+"Select SCALA" = "Выбрать SCALA";
+"Choosing_SCALA" = "Выбор SCALA";
+"realization_release_online_error" = "Запуск в реализацию возможен только в режиме онлайн";
+"Message" = "Сообщение";
+"bottom_menu_are_you_sure" = "Данные будут потеряны. Вы уверены, что хотите покинуть страницу?";
+"realization_contract_delete" = "Вы уверены, что хотите удалить договор?";
+"realization_scala_delete"  = "Вы уверены, что хотите удалить SCALA?";
+"realization_scala_contract_first" = "Сначала нужно выбрать договор";
+"failed_update_contract_SCALA" = "Не удалось обновить договор/SCALA";
+"realization_bo" = "Продуктовые ВО";
+"realization_product_bo_need_to_form" = "Для продолжения процесса сформируйте продуктовые ВО.";
+"realization_product_bo_form" = "Сформировать BО";
+"realization_bo_invalid_requisites" = "Выпуск продуктовых BO возможен только при наличии всей информации о клиенте/договоре/SCALA. Хотите заполнить недостающие поля?";
+"failed_issue_requisites" = "Ошибка выпуска реквизитов ВО";
+"realization_error" = "Проект не может быть запущен в реализацию.";
+"realization_product_bo_refresh" = "Обновить";
+"realization_release" = "Запуск в реализацию";
+"realization_release_date_title" = "Запрошенная дата реализации";
+"done" = "Готово";
+"realization_success" = "Проект успешно запущен в реализацию";
+"realization_go_to_order" = "Открыть карточку Заказа";
+"realization_bo_fix_errors" = "Устранение ошибок";
+"error opening error correction form" = "Ошибка открытия формы устранения ошибок";
+"deal_create_create_new_client_button" =  "Создать нового клиента";
+"list_BO_empty" =  "Списко ВО пустой";
+"realization_bo_go_client" = "Перейти в карточку клиента";
+"realization_bo_go_contract" = "Перейти в карточку договора";
+"realization_bo_go_scala" = "Перейти в карточку SCALA";
+"client_contract_main_debtor" = "Договор имеет задолженность, действия по нему ограничены.";
+"client_card_in_collection_msg" = "Некоторые из договоров клиента имеют задолженность, действия по ним ограничены";
+"add_Scala" = "Добавить SCALA";
+"contract_empty" = "Нет доступного шаблона договора. Обратитесь в поддержку";
+"print_contract" = "Печать договора";
+"choose_template" = "Выберите шаблон";
+"universal_contract" = "Универсальный договор";
+"framework_agreement" = "Рамочное соглашение";
+"document_loading" = "Документ загружается";
+"document_uploaded" = "Документ загружен";
+"Loading" = "Загружаю";
+"loading_check" = "Проверяю";
+"select_file_type" = "Выберите тип файла";
+"attached_files" = "Прикрепленные файлы";
+"add_file" = "Добавить файл";
+"error_loading_file_types" = "Ошибка загрузки типов файлов";
+"select_data_source" = "Выбор источника данных";
+"camera" = "Камера";
+"сallery" = "Галерея";
+"files" = "Файлы";
+"file_selection_available_from_iOS_11" = "Выбор файлов доступен с IOS 11";
+"close" = "Закрыть";
+"ready_download" = "Готовы к загрузке";
+"upload_files_server" = "Загрузить файлы на сервер";
+"uploaded" = "Загружены";
+"save_billing_order" = "Сохранить в Billing Order";
+"megabyte_short" = "Мб";
+"upload" = "Загрузить";
+"stop" = "Остановить";
+"saved_billing_order" = "Сохранены в Billing Order";
+"permission_error_file_attach" = "Операция недоступна для данного файла";
+"file_not_available" = "Файл не доступен";
+"file_size_download_should_not_exceed_100_MB" = "Размер файла для загрузки не должен превышать 100 Мб";
+"stop_data_upload" = "Остановить передачу данных?";
+"fill_missing_print_fields" = "Заполните, пожалуйста, недостающие данные";
+"fill_missing_fields" = "Заполните недостающие поля";
+"print" = "Печать";
+"printing_contract_possible_scala_filled" = "Печать договора возможна если заполнено Scala";
+"address_selection" = "Выбор адреса";
+"status" = "Статус";
+"step" = "Шаг";
+"no_project_comments" = "Нет ни одного комментария по проекту";
+"continue_process_grocery_bo" = "Для продолжения процесса сформируйте продуктовое БО.";
+"select_product" = "Выберите продукт";
+"print_order_blank" = "Печать бланка заказа";
+"select_print_order_blank" = "Выберите шаблон бланка заказа";
+"empty_select_print_order_blank" = "Отсутствует шаблон бланка заказа для данного продукта, обратитесь в поддержку";
+"my_deals" = "Мои сделки";
+"my_exercises" = "Мои задания";
+"project" = "Проект";
+"add_comment" = "Добавить комментарий";
+"start_enter_message" = "Начните вводить сообщение";
+"error_getting_template_fields" = "Ошибка получения полей шаблона";
+"Project statuses list unavailable" = "Список кодов статусов проекта недоступен";
+"enter_text_comment" = "Введите текст комментария";
+"comment_recipients" = "Адресаты комментария";
+"comment_ru" = "РУ";
+"comment_branchName" = "Филиал";
+"comment_group" = "Группа";
+"send_user" = "Направить пользователю";
+"project_participants" = "Участники проекта";
+"select_value" = "Выберите значение";
+"project_missing" = "Проект отсутствует";
+"deal_card_project_reissue" = "Перевыпустить проект";
+"deal_card_project_release" = "Выпустить";
+"not_filled_field_contact" = "Не заполнено поле контакт";
+"not_filled_field_client" = "Не заполнено поле клиент";
+"deal_card_project_edit_warning" = "Проект находится в статусе %@. При взятии сделки на редактирование потребуется перевыпуск проекта";
+"edit_deal" = "Редактировать сделку";
+"inn_not_specified" = "ИНН: не указан";
+"not_specified" = "не указан";
+"not_available_text" = "N/A";
+"deal_card_kp" = "Создать и отправить КП по сделке";
+"deal_card_general" = "Создать и отправить общее КП";
+"select_all" = "Выбрать все";
+"selection_productsto_include_KP" = "Выбор продуктов для включения в КП";
+"create_KP" = "Создать КП";
+"deal_kp_empty" = "КП не может содержать пустую выборку Продуктов. Повторите выбор Продуктов.";
+"deal_kp_no_template" = "Шаблон КП для одного или нескольких выбранных продуктов отсутствует в Системе. Повторите выбор Продуктов или обратитесь в Техническую поддержку.";
+"to_print_order_must_select_contract_SCALA" = "Для печати бланка заказа необходимо выбрать Договор и SCALA";
+"can_not_change_contract_or_scala" = "Для изменения необходимо:\n- Сделка доступна для редактирования\n- В сделке отсутствуют «активные» BO";
+"access_rights_photo" = "Для получения файла необходимы права доступа на запись в галерею фото";
+"username_no_domain" = "Имя пользователя (без домена)";
+"add" = "Добавить";
+"error_opening_901_product" = "Ошибка открытия 901 продукта";
+"version_build" = "Версия и сборка: ";
+"Manager" = "Mенеджер";
+"save_deal" = "Cохранить сделку";
+"cancel_create" = "Oтменить создание";
+"cancel_create_deal" = "Oтменить создание cделки?";
+"created" = "Cоздана";
+"сhanged" = "Изменена";
+"date_created" = "Дата создания";
+"date_сhanged" = "Дата изменения";
+"last_change" = "Последнее изменение";
+"ot" = "от";
+"unauthorized" = "Время жизни токена истекло";
+"realization_release_title" = "Пожалуйста, укажите данные для расчета окупаемости и обоснования затрат.";
+"account_expired" = "Срок действия учетной записи истек";
+"error_load_message" = "Ошибка загрузки сообщения";
+"bottom_menu_title_remove_product" = "Продукт и все настройки сервисов продукта для данной сделки будут удалены. Продолжить?";
+"need_add_product" = "Для продолжения работы необходимо добавить продукт";
+"need_select_product" = "Для продолжения работы необходимо выбрать продукт";
+"need_select_client" = "Для продолжения работы необходимо выбрать клиента";
+"internal_error_deal_not_found" = "Внутренняя ошибка - сделка не найдена";
+"deal_create_release_button" = "Отправить в проектирование";
+"address_exist_msg" = "Указанный адрес уже существует";
+"address_continue_binding" = "Продолжить привязку нового адреса";
+"address_edit" = "Изменить адрес";
+
+"select_product" = "Выбор продукта";
+"check_can_release_bo" = "Вы не сможете изменить цены, состав продуктов, а так же другие параметры сделки после выпуска BO. Выпустить BO?";
+"invalid_field" = "Невалидное поле";
+"deal_kp_required_params_title" = "В сделке не заданы необходимые для КП параметры. Продолжить формирование КП?";
+"deal_kp_required_params_message" = "В сделке не заданы необходимые для КП параметры. Отредактируйте Сделку и вновь создайте КП";
+
+
+// MARK: Messages
+"messages_button_label_go" = "Перейти";
+
+// MARK: OKN
+"okn.title" = "Поиск ОКН";
+"okn.search.businessCenter" = "Введите название ОКН";
+"okn.search.city" = "Город / Населенный пункт";
+"okn.search.street" = "Улица";
+"okn.search.building" = "Здание";
+"okn.searchOknByAddress" = "По данному адресу могут находится ОКН. Хотите привязать ОКН?";
+"okn.check" = "Посмотреть";
+"contract_create_wrong_type_for_ubg" = "Договор имеет SCALA с признаком «Предоставляется УБГ для 001/900». Вы можете использовать типы договоров «Клиентский/Бизнес клиент», «Клиентский/Частный клиент», «Госконтракт». Если Вам требуется другой тип, снимите признак «Предоставляется УБГ для 001/900» со всех SCALA договора";
+
+// Product BOС
+"product_bo_product_bo_header" = "Продуктовые BO";
+"product_bo_attached_files_header" = "Прикрепленные файлы";
+"product_bo_add_file_button" = "Добавить файл";
+"product_bo_loading_error" = "Не удалось загрузить BO";
+
+// Card BO
+"card_bo_bo_header" = "BO";
+"card_bo_comments_header" = "Комментарии";
+"card_bo_attached_files_header" = "Прикрепленные файлы";
+"card_bo_send_button" = "Отправить";
+"card_bo_return_button" = "Вернуть";
+"card_bo.error.failed_to_load_files" = "Не удалось загрузить список файлов";
+"card_bo.error.failed_to_send_comment" = "Не удалось отправить комментарий";
+
+
+ "card_bo_Reached_maximum_comment_size" = "Достигнут максимальный размер комментария. Комментарий не может превышать 4000 символов";
+
+// BO Group Selection
+"bo_group_selection_group" = "Группа";
+"bo_group_selection_user" = "Пользователь";
+"bo_group_selection_send" = "Отправить";
+"bo_group_selection_default_placeholder" = "Выберите из списка";
+
+
+"card_bo_warning_title" = "Сообщение";
+"card_bo_warning_message" = "BO успешно возвращен";
+"card_bo_returning_error" = "Не удалось вернуть BO";
+"card_bo_add_comment_title" = "Добавить комментарий";
+"card_bo_add_comment_placeholder" = "Комментарий";
+"card_bo_add_comment_cancel" = "Отмена";
+
+"card_bo_add_comment_add" = "Добавить";
+"card_bo_add_comment_button" = "Добавить комментарий";
+
+"billing_order_product" = "Продукт";
+"billing_order_product_code" = "Код продукта";
+"billing_order_service" = "Сервис";
+"billing_order_group" = "Группа";
+"billing_order_user" = "Пользователь";
+"billing_order_creation_date" = "Дата создания";
+
+"date_template" = "ДД/ММ/ГГГГ";
+
+"go_online" = "Перейти в онлайн";
+"sign_out" = "Выход из системы";
+"device_is_offline" = "Устройство не в сети.\nОжидайте подключения к сети для продолжения работы.";
+
+"detailed" = "Подробнее >";
+"estimated_Date" = "Расчетная дата";
+"results" = "Результаты";
+"special_conditions" = "Особые условия";
+"design_results" = "Результаты проектирования";
+
+"wrong_login_or_password" = "Неверный логин или пароль";
+
+"print_contract_must_fill_legal_contact_addresses" = "Для печати договора необходимо заполнить Юридический и Контактный адреса в реквизитах Клиента";
+
+"messages_go_project" = "Перейти к проекту";
+"messages_go_bo" = "Перейти к ВО";
+"messages_go_product" = "Перейти к продукту";
+"no_tarif_found" = "По заданным параметрам сервиса тарифный план не найден. Рекомендован минимальный тариф для указанного профиля";
+"price_below_min" = "Указана цена ниже рекомендованной.";
+"tarif_re_request_needed" = "Изменены параметры сервиса, влияющие на определение тарифного плана. Необходимо снова запросить тарифный план.";
+"tariff_set_to_recomended" = "Цены были изменены на рекомендованные";
+"payback_costs" = "Окупаемость и затраты";
+"prices_specified_minimum_acceptable" = "Указанные в сделке цены меньше минимально допустимых значений. В случае смены SCALA система автоматически обновит цены на минимально допустимые значения. Продолжить?";
+"ready_launch_implementation" = "готова к запуску в реализацию.\nПожалуйста, подтвердите";
+
+"file_attachment.button.add_file" = "Добавить файл";
+"file_attachment.button.upload_files" = "Загрузить файлы на сервер";
+
+"file_attachment.title.choose_file_type" = "Выбор типа файла";
+"file_attachment.title.choose_category" = "Выберите категорию";
+"file_attachment.error.failed_to_load_categories" = "Не удалось загрузить список категорий";
+
+"file_attachment.error.max_file_limit_reached" = "Можно прикрепить не более %@ файлов";
+"file_attachment.error.file_too_big" = "Размер файла не должен превышать %@MB";
+"file_attachment.error.failed_to_select_file" = "Произошла ошибка при выборе файла";
+"file_attachment.error.no_camera_permission" = "У приложения нет доступа к камере.\nДоступ можно включить в настройках";
+"file_attachment.error.no_gallery_permission" = "У приложения нет доступа к галерее.\nДоступ можно включить в настройках";
+"file_attachment.button.go_to_settings" = "Перейти в настройки";
+
+"file_attachment.error.file_already_included" = "Файл уже был добавлен в список загружаемых";
+"file_attachment.error.preparation_failed" = "Произошла ошибка при загрузке файлов";
+
+"file_attachment.group.ready" = "Готовы к загрузке";
+"file_attachment.group.uploaded" = "Загружены";
+"file_attachment.group.savedToBO" = "Сохранены в Billing Order";
+
+"deal_card_products_not_found" = "Продуктов не найдено";
+
+"device_is_offline_functions_not_available" = "Устройство не в сети.\nНекоторые функции и данные не будут доступны в приложении.";
+"action_sign_in_offline" = "Продолжить оффлайн";
+"action_sign_in_check_connection" = "Проверить соединение";
+"action_save_form" = "На форме есть не сохраненные данные. Сохранить изменения?";
+
+"group_user_choose" = "Выберите из списка";
+"group_user_group_title" = "Группа";
+"group_user_user_title" = "Пользователь";
+
+"group_user.error.group_not_selected" = "Выберите группу";
+"group_user.error.failed_to_send_BO" = "Не удалось отправить BO";
+"group_user_sent_successfully" = "BO успешно отправлен в группу %@";
+
+"filter_items_nothing_found" = "Ничего не найдено";
+"filter_items_found_result" = "Найдено %@";
+"filter_items_found_result_lines" = "Найдено %@ записей";
+"filter_items_found_result_single" = "Найден %@";
+"filter_items_loading_error" = "Произошла ошибка при загрузке";
+"filter_items_not_selected" = "Не выбрано";
+"filter_items_enter_address" = "Введите адрес";
+
+"edo_joint" = "ЭДО: Совместная форма УПД";
+"edo_separate" = "ЭДО: Раздельная форма УПД";
+
+"group_user_group_placeholder" = "Поиск группы";
+"group_user_user_placeholder" = "Поиск пользователя";
+
+"group_user_title" = "BO %@";
+
+"contact_person" = "Контактное лицо";
+"add_contact" = "Добавить контакт";
+"additional_information" = "Дополнительные сведения";
+"alternative_communication_methods" = "Альтернативные способы связи";
+"belay" = "Отменить";
+"name_method" = "Наименование способа";
+"description_title" = "Описание";
+
+"deal_create_4_tariffication_getting_error" = "Не удалось получить тарифы, попробуйте еще раз";
+
+"phone_ext" = "доб.";
+"contact_level" = "Уровень контакта";
+
+"deal_displayed_title" = "Сделка №%@";
+"deal_displayed_subtitle_date" = "от %@";
+
+"deal_kp_loading_preparing" = "Идет процесс создания КП";
+"deal_kp_loading_loading" = "КП загружается";
+"deal_kp_loading_complete" = "КП загружено";
+
+"ogrn_ie_characters" = "ОГРН должен быть 15 символов";
+
+"no_product_BO" = "Нет продуктовых BO";
+
+"save_contact" = "Сохранить контакт";
+"сhoose_branch" = "Выберите филиал";
+"selected_branch_already_in_list" = "Выбранный филиал уже есть в списке";
+
+"attention" = "Внимание";
+"deal_project_file_attachment_error" =  "Ошибка при обработке файлов";
+"action_sheet_stop_data_transfer" = "Остановить передачу данных?";
+
+"contact_must_have_one_branch" = "Для контактного лица должен быть указан хотя бы один филиал";
+"all_changes_lost_you_want_leave" = "Все изменения будут утеряны. Вы действительно хотите выйти без сохранения?";
+
+"result_0" = "результатов";
+"result_1" = "результат";
+"result_2" = "результата";
+
+"deal_saved" = "Cделка сохранена";
+"continue_working_deal" = "Хотите продолжить процесс работы со сделкой?";
+
+"title_opportunitys" = "Проекты";
+"title_contracts" = "Договоры";
+"title_Scalas" = "Scala";
+"contact_person_tied_following_data:" = "Данное контактное лицо привязано к следующим данным:";
+"changing_data_contact_person_continue" = "Изменение следующих данных контактного лица - %@ приведет к созданию запросов на изменение биллинг ордера для каждой из указанных записей Scala. Продолжить?";
+
+"product_all_settings_will_deleted" = "Продукт и все настройки сервисов продукта для данной сделки буду удалены. Продолжить?";
+
+"level_client" = "Клиент";
+"level_deal" = "Сделка";
+"level_contract" = "Договор";
+"level_scala" = "Scala";
+
+"contact_title_0" = "Г-н";
+"contact_title_1" = "Г-жа";
+"contact_title_2" = "Mr.";
+"contact_title_3" = "Mrs.";
+
+"tied_deal" = "Привязан к сделке";
+"tied_contract" = "Привязан к договору";
+"tied_scala" = "Привязан к Scala";
+
+"search_сontact" = "Поиск контакта"; 
+
+"inactive_contact_not_valid" = "Неактивное контактное лицо не может быть указано как главное для клиента";
+"selected_contact_already_previous" = "Выбранное КЛ совпадает с предыдущим  КЛ";
+
+"non_active" = "Неактивные";
+"active" = "Aктивные";
+
+"deal_created" = "Сделка создана";
+"project_released" = "Проект выпущен";
+
+"personal_information" = "Персональные данные";
+
+"customer_no_contact_person" = "У клиента не задано контактное лицо";
+
+"contact_phone_country_error" = "Код страны от 1 до 3 цифр";
+"contact_phone_operator_error" = "Код города или оператора от 3 до 5 цифр";
+"contact_phone_number_error" = "Номер от 5 до 12 цифр";
+
+"deal_create_4_SZ_warning" = "Скидка превышает допустимый размер, необходимо выпустить СЗ на ее согласование";
+
+"okn_has_more_scheme" = "ОКН имеет более одной схемы комиссии. Выберите нужный вариант";
+
+"contract_edit.validation.failed_to_change_contract_type" = "Невозможно сменить тип контракта после выпуска реквизитов";
+"contract_edit.validation.failed_to_change_contract_type_from" = "Невозможно сменить тип контракта c «%@» после выпуска реквизитов";
+"contract_edit.validation.failed_to_change_contract_type_to" = "Невозможно сменить тип контракта на «%@» после выпуска реквизитов";
+"deal_create_client_not_selected" = "Необходимо выбрать клиента";
+
+"client_subcategory_state" = "Подкатегория клиента «%@» будет изменена на «Государственные (бюджетные)». Продолжить?";
+"client_subcategory_government" = "Подкатегория клиента «Государственные (бюджетные)» будет изменена на «%@». Продолжить?";
+
+"exit_edit" = "Отменить редактирование";
+"offered_option:" = "Предлагается вариант:";
+"change" = "Изменить";
+
+"client_category_legal_changed" = "Категория клиента «Юридическое лицо» будет изменена на «Оператор связи». Продолжить?";
+"client_category_telecommunications_operator_changed" = "Категория клиента «Оператор связи» будет изменена на «Юридическое лицо». Продолжить?";
+
+"incorrect_phone_format" = "Некорректный формат телефона";
+"search_client" = "Поиск клиента";
+
+"close_deal" = "Закрыть сделку отказом";
+"create_contract" = "Создать договор";
+"create_address" = "Создать адрес";
+"create_appeal" = "Создать обращение";
+"create_exercise" = "Создать задание";
+
+"service_operations" = "Бизнес-операции SF";
+"Services" = "Сервисы";
+"Appeals" = "Обращения";
+"Exercises" = "Задания";
+
+"add_number_phone" = "Добавить номер телефона";
+"new_exercise_aCRM" = "Новое задание aCRM";
+"required_fields_marked" = "Поля, обязательные для заполнения помечены";
+"name_path_attachment_file" = "Имя и путь до файла вложения";
+"info_exercise" = "Информация о задании";
+"exercise" = "Задание";
+"close_exercise" = "Закрыть задание";
+"coincides_legal" = "Совпадает с юридическим";
+"fio" = "ФИО";
+
+"product_service_parameters" = "Параметры продукта и сервисов";
+"get_tarif" = "Получить тариф";
+
+"refusal_close_deal" = "Закрытие сделки отказом";
+"all_stages_closed" = "Все этапы по сделке будут закрыты. Вы действительно хотите закрыть сделку отказом?";
+
+"сommercial_offers" = "Коммерческие предложения";
+
+"card_deal" = "Карточка сделки";
+"process" = "Процесс";
+
+
+

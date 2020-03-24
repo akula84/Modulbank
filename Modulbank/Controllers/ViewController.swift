@@ -12,11 +12,28 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        Router.showLoader()
-        Router.removeLoader()
+        
+        
+        
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func actionButton(_ sender: Any) {
+        Router.showLoader()
+        AuthManager.login(username: "iperkina", password: "1234") { [weak self] (success, error) in
+            DispatchQueue.main.async {
+                print("success", success)
+                Router.removeLoader()
+            }
+        }
+        
+    }
+    
+    @IBAction func actionButton2(_ sender: Any) {
+        let vc = TestController.controller()
+        print("actionButton2", vc)
+        Router.pushViewController(vc)
+    }
+    
 }
 
