@@ -9,31 +9,31 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    var items: [CharacterItem]? {
+        didSet {
+            reloadTable()
+        }
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        
-        
-        // Do any additional setup after loading the view.
+        loadItems()
     }
-
-    @IBAction func actionButton(_ sender: Any) {
+    
+    func loadItems() {
         Router.showLoader()
-        AuthManager.login(username: "iperkina", password: "1234") { [weak self] (success, error) in
+        GetСharacters(sync: false, object: nil) { [weak self] (reply, _, _) in
             DispatchQueue.main.async {
-                print("success", success)
                 Router.removeLoader()
+                self?.items = reply as? [CharacterItem]
             }
         }
-        
     }
     
-    @IBAction func actionButton2(_ sender: Any) {
-        let vc = TestController.controller()
-        print("actionButton2", vc)
-        Router.pushViewController(vc)
+    func reloadTable() {
+       
     }
-    
+  
 }
 

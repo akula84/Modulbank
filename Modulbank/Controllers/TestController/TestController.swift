@@ -16,21 +16,7 @@ class TestController: UIViewController {
     
     func loadItems() {
         Router.showLoader()
-        /*
-        GetDealDocTypes(sync: false, object: nil) { [weak self] (reply, _, _) in
-            DispatchQueue.main.async {
-                Router.removeLoader()
-                guard let items = reply as? [DealDocType], !items.isEmpty else {
-                    MessageCenter.showMessage(L10n.errorLoadingFileTypes)
-                    return
-                }
-                MessageCenter.showMessage("ОК")
-                print("GetDealDocTypes", items)
-            }
-            
-        }
-        */
-        
+            /*
         GetDealDocTypes(sync: false, object: nil) { (reply, _, _) in
             DispatchQueue.main.async {
                 Router.removeLoader()
@@ -45,5 +31,6 @@ class TestController: UIViewController {
             }
             
         }
+ */
     }
 }

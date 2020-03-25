@@ -8,9 +8,8 @@
 
 import UIKit
 
-class DealDocType: BaseModel, Decodable {
-    
-    var docId: Int?
-    var docName: String?
-
+class CharacterItem: Decodable {
+    var id: Int?
+    var image: String?
+    var name: String?
 }

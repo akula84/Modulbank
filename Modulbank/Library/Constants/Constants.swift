@@ -10,12 +10,11 @@ import Foundation
 
 typealias AliasDictionary = [String: Any]
 typealias EmptyBlock = () -> Void
+public typealias StringBlock = (String?) -> Void
 
 struct Constants {
     struct API {
-        static let BaseURL =  "https://mwp.beeline.ru"
-        static let BasicAuthHeader = "Basic dGVzdGp3dGNsaWVudGlkOlhZN2ttem9OemwxMDA="
-        static let DefaultGrantType = "password"
+        static let BaseURL =  "https://rickandmortyapi.com/api"
     }
 
     struct ContentType {
@@ -28,9 +27,5 @@ struct Constants {
             return String()
         }
         return versionNumber + "." + buildNumber
-    }
-
-    static var updateURL: URL? {
-        return URL(string: "https://mwp.beeline.ru/ios/index.html")
     }
 }

@@ -35,10 +35,6 @@ class AlamofireAPI: API {
         return .get
     }
 
-    var shouldAddAccessToken: Bool {
-        return true
-    }
-
     var encoding: ParameterEncoding {
         return URLEncoding.default
     }
@@ -155,12 +151,6 @@ class AlamofireAPI: API {
 
     var allHTTPHeaderFields: HTTPHeaders {
         var dict = HTTPHeaders()
-        dict["ismwptestdev"] = "true"
-
-        if shouldAddAccessToken,
-            let token = AuthManager.accessToken {
-            dict["Authorization"] = "Bearer \(token)"
-        }
         dict["Content-Type"] = contentType
         dict["Accept"] = Constants.ContentType.applicationJson
         return dict
