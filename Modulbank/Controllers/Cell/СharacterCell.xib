@@ -23,6 +23,11 @@
                             <constraint firstAttribute="width" secondItem="guz-ez-JlP" secondAttribute="height" id="QMM-E8-Sv4"/>
                             <constraint firstAttribute="height" constant="70" id="dxq-Ud-iDV"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="dxq-Ud-iDV"/>
+                            </mask>
+                        </variation>
                     </imageView>
                     <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="5d0-ro-wAK">
                         <rect key="frame" x="35" y="35" width="20" height="20"/>
