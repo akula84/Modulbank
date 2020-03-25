@@ -12,5 +12,6 @@ target 'Modulbank' do
   pod 'SwiftGen'
   pod 'SideMenu'
   pod ‘RealmSwift’
+  pod 'Kingfisher', '~> 5.0'
  
 end

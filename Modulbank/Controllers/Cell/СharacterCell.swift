@@ -8,10 +8,10 @@
 
 import Alamofire
 import UIKit
+import Kingfisher
 
 class СharacterCell: UITableViewCell {
     @IBOutlet var imageCharacter: UIImageView!
-    @IBOutlet var loaderView: UIActivityIndicatorView!
     @IBOutlet var nameLabel: UILabel!
     
     var item: CharacterItem? {
@@ -23,41 +23,12 @@ class СharacterCell: UITableViewCell {
     
     func prepareImage() {
         imageCharacter.image = nil
-        hiddenLoader()
-        let imageCache = CasheManager.imageCache
+        imageCharacter.kf.cancelDownloadTask()
         guard let imagePath = imagePath,
             let url = URL(string: imagePath) else {
             return
         }
-        if let image = imageCache.object(forKey: NSString(string: imagePath)) {
-            imageCharacter.image = image
-            return
-        }
-
-        showLoader()
-        DispatchQueue.global(qos: .background).async {
-            guard let data = try? Data(contentsOf: url),
-                let image: UIImage = UIImage(data: data) else {
-                self.hiddenLoader()
-                return
-            }
-            DispatchQueue.main.async {
-                self.hiddenLoader()
-                guard self.imagePath == imagePath else {
-                    return
-                }
-                imageCache.setObject(image, forKey: NSString(string: imagePath))
-                self.imageCharacter.image = image
-            }
-        }
-    }
-
-    func hiddenLoader() {
-        loaderView.isHidden = true
-    }
-
-    func showLoader() {
-        loaderView.isHidden = false
+        imageCharacter.kf.setImage(with: url)
     }
 
     var imagePath: String? {

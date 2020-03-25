@@ -23,7 +23,6 @@
 		833922DC242B0ADA00091329 /* UITableView+TableViewHeaderAutolayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833922D8242B0AD900091329 /* UITableView+TableViewHeaderAutolayout.swift */; };
 		833922DF242B0B0200091329 /* RegisterTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833922DE242B0B0200091329 /* RegisterTableView.swift */; };
 		833922E1242B0B4B00091329 /* ViewController.TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833922E0242B0B4B00091329 /* ViewController.TableView.swift */; };
-		833922E3242B0E2A00091329 /* CasheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833922E2242B0E2A00091329 /* CasheManager.swift */; };
 		838E1EBE242A14DA00A65D17 /* BaseViewWithXIBInit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 838E1EBD242A14DA00A65D17 /* BaseViewWithXIBInit.swift */; };
 		838E1EC5242A150900A65D17 /* UIView+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 838E1EC1242A150900A65D17 /* UIView+Utils.swift */; };
 		838E1EC6242A150900A65D17 /* UIView+Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 838E1EC2242A150900A65D17 /* UIView+Constraint.swift */; };
@@ -101,7 +100,6 @@
 		833922D8242B0AD900091329 /* UITableView+TableViewHeaderAutolayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+TableViewHeaderAutolayout.swift"; sourceTree = "<group>"; };
 		833922DE242B0B0200091329 /* RegisterTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterTableView.swift; sourceTree = "<group>"; };
 		833922E0242B0B4B00091329 /* ViewController.TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.TableView.swift; sourceTree = "<group>"; };
-		833922E2242B0E2A00091329 /* CasheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CasheManager.swift; sourceTree = "<group>"; };
 		838E1EBD242A14DA00A65D17 /* BaseViewWithXIBInit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewWithXIBInit.swift; sourceTree = "<group>"; };
 		838E1EC1242A150900A65D17 /* UIView+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Utils.swift"; sourceTree = "<group>"; };
 		838E1EC2242A150900A65D17 /* UIView+Constraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Constraint.swift"; sourceTree = "<group>"; };
@@ -278,7 +276,6 @@
 			isa = PBXGroup;
 			children = (
 				83335706242A1054001FF9B6 /* Router.swift */,
-				833922E2242B0E2A00091329 /* CasheManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -705,7 +702,6 @@
 				838E1F46242A205300A65D17 /* NSNumber+Utils.swift in Sources */,
 				8333570C242A105B001FF9B6 /* UIViewController+Extension.swift in Sources */,
 				838E1F34242A1EF200A65D17 /* UserDefaults+Utils.swift in Sources */,
-				833922E3242B0E2A00091329 /* CasheManager.swift in Sources */,
 				838E1F2A242A1E3300A65D17 /* String+Utils.swift in Sources */,
 				838E1F55242A212D00A65D17 /* Colors.swift in Sources */,
 				838E1EEF242A165B00A65D17 /* PutAPI.swift in Sources */,
