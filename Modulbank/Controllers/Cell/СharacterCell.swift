@@ -12,25 +12,33 @@ import UIKit
 class СharacterCell: UITableViewCell {
     @IBOutlet var imageCharacter: UIImageView!
     @IBOutlet var loaderView: UIActivityIndicatorView!
+    @IBOutlet var nameLabel: UILabel!
     
     var item: CharacterItem? {
         didSet {
+            nameLabel.text = item?.name
             prepareImage()
         }
     }
-
+    
     func prepareImage() {
         imageCharacter.image = nil
         hiddenLoader()
+        let imageCache = CasheManager.imageCache
         guard let imagePath = imagePath,
             let url = URL(string: imagePath) else {
             return
         }
+        if let image = imageCache.object(forKey: NSString(string: imagePath)) {
+            imageCharacter.image = image
+            return
+        }
+
         showLoader()
         DispatchQueue.global(qos: .background).async {
             guard let data = try? Data(contentsOf: url),
                 let image: UIImage = UIImage(data: data) else {
-                    self.hiddenLoader()
+                self.hiddenLoader()
                 return
             }
             DispatchQueue.main.async {
@@ -38,16 +46,16 @@ class СharacterCell: UITableViewCell {
                 guard self.imagePath == imagePath else {
                     return
                 }
-                // self.imageCache.setObject(image, forKey: NSString(string:        (activeUser?.login!)!))
+                imageCache.setObject(image, forKey: NSString(string: imagePath))
                 self.imageCharacter.image = image
             }
         }
     }
-    
+
     func hiddenLoader() {
         loaderView.isHidden = true
     }
-    
+
     func showLoader() {
         loaderView.isHidden = false
     }
