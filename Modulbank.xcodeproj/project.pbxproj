@@ -16,6 +16,13 @@
 		8333570C242A105B001FF9B6 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8333570A242A105B001FF9B6 /* UIViewController+Extension.swift */; };
 		8333570D242A105B001FF9B6 /* UIViewController+Storyboards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8333570B242A105B001FF9B6 /* UIViewController+Storyboards.swift */; };
 		83335710242A1087001FF9B6 /* ActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8333570F242A1087001FF9B6 /* ActivityIndicatorView.swift */; };
+		833922CF242B06BC00091329 /* СharacterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833922CE242B06BC00091329 /* СharacterCell.swift */; };
+		833922D1242B06D300091329 /* СharacterCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 833922D0242B06D300091329 /* СharacterCell.xib */; };
+		833922DA242B0ADA00091329 /* UITableView+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833922D6242B0AD900091329 /* UITableView+Utils.swift */; };
+		833922DB242B0ADA00091329 /* UITableView+Registration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833922D7242B0AD900091329 /* UITableView+Registration.swift */; };
+		833922DC242B0ADA00091329 /* UITableView+TableViewHeaderAutolayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833922D8242B0AD900091329 /* UITableView+TableViewHeaderAutolayout.swift */; };
+		833922DF242B0B0200091329 /* RegisterTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833922DE242B0B0200091329 /* RegisterTableView.swift */; };
+		833922E1242B0B4B00091329 /* ViewController.TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833922E0242B0B4B00091329 /* ViewController.TableView.swift */; };
 		838E1EBE242A14DA00A65D17 /* BaseViewWithXIBInit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 838E1EBD242A14DA00A65D17 /* BaseViewWithXIBInit.swift */; };
 		838E1EC5242A150900A65D17 /* UIView+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 838E1EC1242A150900A65D17 /* UIView+Utils.swift */; };
 		838E1EC6242A150900A65D17 /* UIView+Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 838E1EC2242A150900A65D17 /* UIView+Constraint.swift */; };
@@ -88,6 +95,13 @@
 		8333570A242A105B001FF9B6 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
 		8333570B242A105B001FF9B6 /* UIViewController+Storyboards.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Storyboards.swift"; sourceTree = "<group>"; };
 		8333570F242A1087001FF9B6 /* ActivityIndicatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorView.swift; sourceTree = "<group>"; };
+		833922CE242B06BC00091329 /* СharacterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "СharacterCell.swift"; sourceTree = "<group>"; };
+		833922D0242B06D300091329 /* СharacterCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = "СharacterCell.xib"; sourceTree = "<group>"; };
+		833922D6242B0AD900091329 /* UITableView+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+Utils.swift"; sourceTree = "<group>"; };
+		833922D7242B0AD900091329 /* UITableView+Registration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+Registration.swift"; sourceTree = "<group>"; };
+		833922D8242B0AD900091329 /* UITableView+TableViewHeaderAutolayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+TableViewHeaderAutolayout.swift"; sourceTree = "<group>"; };
+		833922DE242B0B0200091329 /* RegisterTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterTableView.swift; sourceTree = "<group>"; };
+		833922E0242B0B4B00091329 /* ViewController.TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.TableView.swift; sourceTree = "<group>"; };
 		838E1EBD242A14DA00A65D17 /* BaseViewWithXIBInit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewWithXIBInit.swift; sourceTree = "<group>"; };
 		838E1EC1242A150900A65D17 /* UIView+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Utils.swift"; sourceTree = "<group>"; };
 		838E1EC2242A150900A65D17 /* UIView+Constraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Constraint.swift"; sourceTree = "<group>"; };
@@ -225,7 +239,9 @@
 			isa = PBXGroup;
 			children = (
 				838E1F56242A244000A65D17 /* TestController */,
+				833922CD242B069900091329 /* Cell */,
 				833356F0242A0E67001FF9B6 /* ViewController.swift */,
+				833922E0242B0B4B00091329 /* ViewController.TableView.swift */,
 				833356F2242A0E67001FF9B6 /* Main.storyboard */,
 			);
 			path = Controllers;
@@ -287,6 +303,7 @@
 				838E1F45242A205300A65D17 /* NSNumber+Utils.swift */,
 				838E1F52242A20E100A65D17 /* NumberFormatter+Utils.swift */,
 				838E1F26242A1E2800A65D17 /* String */,
+				833922D5242B0ACE00091329 /* TableView */,
 				838E1F0E242A1C5D00A65D17 /* UIAlertController+Utils.swift */,
 				838E1F4B242A209A00A65D17 /* UIColor */,
 				838E1F43242A204000A65D17 /* UIFont+Utils.swift */,
@@ -312,6 +329,26 @@
 				8333570F242A1087001FF9B6 /* ActivityIndicatorView.swift */,
 			);
 			path = ActivityIndicatorView;
+			sourceTree = "<group>";
+		};
+		833922CD242B069900091329 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				833922CE242B06BC00091329 /* СharacterCell.swift */,
+				833922D0242B06D300091329 /* СharacterCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		833922D5242B0ACE00091329 /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				833922DE242B0B0200091329 /* RegisterTableView.swift */,
+				833922D7242B0AD900091329 /* UITableView+Registration.swift */,
+				833922D8242B0AD900091329 /* UITableView+TableViewHeaderAutolayout.swift */,
+				833922D6242B0AD900091329 /* UITableView+Utils.swift */,
+			);
+			path = TableView;
 			sourceTree = "<group>";
 		};
 		838E1EBB242A14C000A65D17 /* Base classes */ = {
@@ -612,6 +649,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				833922D1242B06D300091329 /* СharacterCell.xib in Resources */,
 				838E1F0A242A1B0800A65D17 /* Localizable.strings in Resources */,
 				838E1ECC242A153B00A65D17 /* TestView.xib in Resources */,
 				833356F9242A0E68001FF9B6 /* LaunchScreen.storyboard in Resources */,
@@ -670,9 +708,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				833922DB242B0ADA00091329 /* UITableView+Registration.swift in Sources */,
 				838E1ECA242A153400A65D17 /* TestView.swift in Sources */,
 				838E1EE2242A164E00A65D17 /* API.swift in Sources */,
 				838E1EBE242A14DA00A65D17 /* BaseViewWithXIBInit.swift in Sources */,
+				833922DC242B0ADA00091329 /* UITableView+TableViewHeaderAutolayout.swift in Sources */,
 				838E1F1B242A1CD600A65D17 /* BaseModel.swift in Sources */,
 				838E1F46242A205300A65D17 /* NSNumber+Utils.swift in Sources */,
 				8333570C242A105B001FF9B6 /* UIViewController+Extension.swift in Sources */,
@@ -685,6 +725,8 @@
 				838E1F4F242A20A100A65D17 /* UIColor+Utils.swift in Sources */,
 				838E1F61242A27C800A65D17 /* GetСharacters.swift in Sources */,
 				838E1F48242A207700A65D17 /* Double+Utils.swift in Sources */,
+				833922E1242B0B4B00091329 /* ViewController.TableView.swift in Sources */,
+				833922DF242B0B0200091329 /* RegisterTableView.swift in Sources */,
 				838E1EC7242A150900A65D17 /* UIView+Layer.swift in Sources */,
 				838E1EE3242A164E00A65D17 /* API+RequestProgress.swift in Sources */,
 				838E1F63242A27F700A65D17 /* CharacterItem.swift in Sources */,
@@ -701,6 +743,7 @@
 				838E1F51242A20C300A65D17 /* CGFloat+Utils.swift in Sources */,
 				83335710242A1087001FF9B6 /* ActivityIndicatorView.swift in Sources */,
 				838E1EF5242A176C00A65D17 /* HTTPURLResponse+Utils.swift in Sources */,
+				833922DA242B0ADA00091329 /* UITableView+Utils.swift in Sources */,
 				838E1F40242A1FF800A65D17 /* NSMutableAttributedString+Utils.swift in Sources */,
 				838E1F5F242A26FD00A65D17 /* JSONDecoder+Utils.swift in Sources */,
 				838E1EF9242A18B900A65D17 /* Dictionary+Utils.swift in Sources */,
@@ -724,6 +767,7 @@
 				838E1F17242A1C9A00A65D17 /* APIModel+CloudKit.swift in Sources */,
 				838E1F39242A1F3A00A65D17 /* Formatter.swift in Sources */,
 				838E1F16242A1C9A00A65D17 /* APIModel+Alamofire.swift in Sources */,
+				833922CF242B06BC00091329 /* СharacterCell.swift in Sources */,
 				838E1F20242A1CF700A65D17 /* Parser+KeyConversion.swift in Sources */,
 				838E1EEE242A165B00A65D17 /* AlamofireParamsPagedAPI.swift in Sources */,
 				838E1F44242A204000A65D17 /* UIFont+Utils.swift in Sources */,

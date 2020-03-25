@@ -31,10 +31,32 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="t3g-lO-HpR" customClass="RegisterTableView" customModule="Modulbank" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="88" width="414" height="774"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="registerCellIdentifier" value="СharacterCell"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="bEF-fj-bEK"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="MlK-ga-PEx"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="t3g-lO-HpR" secondAttribute="trailing" id="O8v-ZG-B58"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="t3g-lO-HpR" secondAttribute="bottom" id="b3B-Cc-9k6"/>
+                            <constraint firstItem="t3g-lO-HpR" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="sU1-Pv-PgJ"/>
+                            <constraint firstItem="t3g-lO-HpR" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="yo4-ff-5cZ"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="jn3-bo-JKB"/>
+                    <connections>
+                        <outlet property="tableView" destination="t3g-lO-HpR" id="Lf4-69-K3y"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
