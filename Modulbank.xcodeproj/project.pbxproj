@@ -76,8 +76,6 @@
 		838E1F51242A20C300A65D17 /* CGFloat+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 838E1F50242A20C200A65D17 /* CGFloat+Utils.swift */; };
 		838E1F53242A20E100A65D17 /* NumberFormatter+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 838E1F52242A20E100A65D17 /* NumberFormatter+Utils.swift */; };
 		838E1F55242A212D00A65D17 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 838E1F54242A212D00A65D17 /* Colors.swift */; };
-		838E1F58242A24BD00A65D17 /* TestController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 838E1F57242A24BD00A65D17 /* TestController.swift */; };
-		838E1F5A242A252200A65D17 /* TestController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 838E1F59242A252200A65D17 /* TestController.storyboard */; };
 		838E1F5F242A26FD00A65D17 /* JSONDecoder+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 838E1F5D242A26FD00A65D17 /* JSONDecoder+Utils.swift */; };
 		838E1F61242A27C800A65D17 /* GetСharacters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 838E1F60242A27C800A65D17 /* GetСharacters.swift */; };
 		838E1F63242A27F700A65D17 /* CharacterItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 838E1F62242A27F700A65D17 /* CharacterItem.swift */; };
@@ -156,8 +154,6 @@
 		838E1F50242A20C200A65D17 /* CGFloat+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGFloat+Utils.swift"; sourceTree = "<group>"; };
 		838E1F52242A20E100A65D17 /* NumberFormatter+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NumberFormatter+Utils.swift"; sourceTree = "<group>"; };
 		838E1F54242A212D00A65D17 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
-		838E1F57242A24BD00A65D17 /* TestController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestController.swift; sourceTree = "<group>"; };
-		838E1F59242A252200A65D17 /* TestController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TestController.storyboard; sourceTree = "<group>"; };
 		838E1F5D242A26FD00A65D17 /* JSONDecoder+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "JSONDecoder+Utils.swift"; sourceTree = "<group>"; };
 		838E1F60242A27C800A65D17 /* GetСharacters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "GetСharacters.swift"; sourceTree = "<group>"; };
 		838E1F62242A27F700A65D17 /* CharacterItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterItem.swift; sourceTree = "<group>"; };
@@ -240,7 +236,6 @@
 		83335701242A0FFD001FF9B6 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				838E1F56242A244000A65D17 /* TestController */,
 				833922CD242B069900091329 /* Cell */,
 				833356F0242A0E67001FF9B6 /* ViewController.swift */,
 				833922E0242B0B4B00091329 /* ViewController.TableView.swift */,
@@ -574,15 +569,6 @@
 			path = UIColor;
 			sourceTree = "<group>";
 		};
-		838E1F56242A244000A65D17 /* TestController */ = {
-			isa = PBXGroup;
-			children = (
-				838E1F57242A24BD00A65D17 /* TestController.swift */,
-				838E1F59242A252200A65D17 /* TestController.storyboard */,
-			);
-			path = TestController;
-			sourceTree = "<group>";
-		};
 		838E1F5B242A26F000A65D17 /* JSONDecoder */ = {
 			isa = PBXGroup;
 			children = (
@@ -657,7 +643,6 @@
 				838E1ECC242A153B00A65D17 /* TestView.xib in Resources */,
 				833356F9242A0E68001FF9B6 /* LaunchScreen.storyboard in Resources */,
 				833356F6242A0E68001FF9B6 /* Assets.xcassets in Resources */,
-				838E1F5A242A252200A65D17 /* TestController.storyboard in Resources */,
 				833356F4242A0E67001FF9B6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -765,7 +750,6 @@
 				838E1EED242A165B00A65D17 /* AlamofireURLPagedAPI.swift in Sources */,
 				838E1EF7242A17F600A65D17 /* Data+Utils.swift in Sources */,
 				838E1F3D242A1F5100A65D17 /* Date+Utils.swift in Sources */,
-				838E1F58242A24BD00A65D17 /* TestController.swift in Sources */,
 				838E1F0F242A1C5D00A65D17 /* UIAlertController+Utils.swift in Sources */,
 				838E1F4A242A208500A65D17 /* Int+Utils.swift in Sources */,
 				838E1F17242A1C9A00A65D17 /* APIModel+CloudKit.swift in Sources */,
