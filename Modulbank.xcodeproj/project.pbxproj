@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		832ACE07242C69770092F0F0 /* ScrollingPaginator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832ACE06242C69770092F0F0 /* ScrollingPaginator.swift */; };
+		832ACE09242C69920092F0F0 /* PaginatedItemsProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832ACE08242C69920092F0F0 /* PaginatedItemsProvider.swift */; };
+		832ACE0B242C69B50092F0F0 /* Pagination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832ACE0A242C69B50092F0F0 /* Pagination.swift */; };
+		832ACE0D242C6A3B0092F0F0 /* Cancellable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832ACE0C242C6A3B0092F0F0 /* Cancellable.swift */; };
+		832ACE0F242C6A950092F0F0 /* Range+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832ACE0E242C6A950092F0F0 /* Range+Utils.swift */; };
+		832ACE12242C6B580092F0F0 /* InfiniteScrollingDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832ACE11242C6B580092F0F0 /* InfiniteScrollingDataSource.swift */; };
+		832ACE14242C6F250092F0F0 /* ScrollingPaginatorAlamofireAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832ACE13242C6F250092F0F0 /* ScrollingPaginatorAlamofireAdapter.swift */; };
+		832ACE16242C70B00092F0F0 /* APICancellable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832ACE15242C70B00092F0F0 /* APICancellable.swift */; };
 		833356ED242A0E67001FF9B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833356EC242A0E67001FF9B6 /* AppDelegate.swift */; };
 		833356F1242A0E67001FF9B6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833356F0242A0E67001FF9B6 /* ViewController.swift */; };
 		833356F4242A0E67001FF9B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 833356F2242A0E67001FF9B6 /* Main.storyboard */; };
@@ -82,6 +90,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		832ACE06242C69770092F0F0 /* ScrollingPaginator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollingPaginator.swift; sourceTree = "<group>"; };
+		832ACE08242C69920092F0F0 /* PaginatedItemsProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaginatedItemsProvider.swift; sourceTree = "<group>"; };
+		832ACE0A242C69B50092F0F0 /* Pagination.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pagination.swift; sourceTree = "<group>"; };
+		832ACE0C242C6A3B0092F0F0 /* Cancellable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cancellable.swift; sourceTree = "<group>"; };
+		832ACE0E242C6A950092F0F0 /* Range+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Range+Utils.swift"; sourceTree = "<group>"; };
+		832ACE11242C6B580092F0F0 /* InfiniteScrollingDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfiniteScrollingDataSource.swift; sourceTree = "<group>"; };
+		832ACE13242C6F250092F0F0 /* ScrollingPaginatorAlamofireAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollingPaginatorAlamofireAdapter.swift; sourceTree = "<group>"; };
+		832ACE15242C70B00092F0F0 /* APICancellable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APICancellable.swift; sourceTree = "<group>"; };
 		833356E9242A0E67001FF9B6 /* Modulbank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Modulbank.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		833356EC242A0E67001FF9B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		833356F0242A0E67001FF9B6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -297,6 +313,7 @@
 				838E1F3F242A1FF800A65D17 /* NSMutableAttributedString+Utils.swift */,
 				838E1F45242A205300A65D17 /* NSNumber+Utils.swift */,
 				838E1F52242A20E100A65D17 /* NumberFormatter+Utils.swift */,
+				832ACE0E242C6A950092F0F0 /* Range+Utils.swift */,
 				838E1F26242A1E2800A65D17 /* String */,
 				833922D5242B0ACE00091329 /* TableView */,
 				838E1F0E242A1C5D00A65D17 /* UIAlertController+Utils.swift */,
@@ -346,6 +363,20 @@
 			path = TableView;
 			sourceTree = "<group>";
 		};
+		83392309242B504100091329 /* ScrollingPaginator */ = {
+			isa = PBXGroup;
+			children = (
+				832ACE15242C70B00092F0F0 /* APICancellable.swift */,
+				832ACE0C242C6A3B0092F0F0 /* Cancellable.swift */,
+				832ACE11242C6B580092F0F0 /* InfiniteScrollingDataSource.swift */,
+				832ACE08242C69920092F0F0 /* PaginatedItemsProvider.swift */,
+				832ACE0A242C69B50092F0F0 /* Pagination.swift */,
+				832ACE06242C69770092F0F0 /* ScrollingPaginator.swift */,
+				832ACE13242C6F250092F0F0 /* ScrollingPaginatorAlamofireAdapter.swift */,
+			);
+			path = ScrollingPaginator;
+			sourceTree = "<group>";
+		};
 		838E1EBB242A14C000A65D17 /* Base classes */ = {
 			isa = PBXGroup;
 			children = (
@@ -384,6 +415,7 @@
 		838E1ECD242A15F900A65D17 /* API */ = {
 			isa = PBXGroup;
 			children = (
+				83392309242B504100091329 /* ScrollingPaginator */,
 				838E1F11242A1C9300A65D17 /* Model */,
 				838E1ED5242A164600A65D17 /* Base */,
 				838E1ECE242A160100A65D17 /* Methods */,
@@ -697,13 +729,16 @@
 				838E1ECA242A153400A65D17 /* TestView.swift in Sources */,
 				838E1EE2242A164E00A65D17 /* API.swift in Sources */,
 				838E1EBE242A14DA00A65D17 /* BaseViewWithXIBInit.swift in Sources */,
+				832ACE09242C69920092F0F0 /* PaginatedItemsProvider.swift in Sources */,
 				833922DC242B0ADA00091329 /* UITableView+TableViewHeaderAutolayout.swift in Sources */,
 				838E1F1B242A1CD600A65D17 /* BaseModel.swift in Sources */,
 				838E1F46242A205300A65D17 /* NSNumber+Utils.swift in Sources */,
 				8333570C242A105B001FF9B6 /* UIViewController+Extension.swift in Sources */,
 				838E1F34242A1EF200A65D17 /* UserDefaults+Utils.swift in Sources */,
 				838E1F2A242A1E3300A65D17 /* String+Utils.swift in Sources */,
+				832ACE0F242C6A950092F0F0 /* Range+Utils.swift in Sources */,
 				838E1F55242A212D00A65D17 /* Colors.swift in Sources */,
+				832ACE07242C69770092F0F0 /* ScrollingPaginator.swift in Sources */,
 				838E1EEF242A165B00A65D17 /* PutAPI.swift in Sources */,
 				838E1EDF242A164E00A65D17 /* APIUtils.swift in Sources */,
 				838E1EFD242A192E00A65D17 /* MessageCenter.swift in Sources */,
@@ -712,6 +747,8 @@
 				838E1F48242A207700A65D17 /* Double+Utils.swift in Sources */,
 				833922E1242B0B4B00091329 /* ViewController.TableView.swift in Sources */,
 				833922DF242B0B0200091329 /* RegisterTableView.swift in Sources */,
+				832ACE0D242C6A3B0092F0F0 /* Cancellable.swift in Sources */,
+				832ACE16242C70B00092F0F0 /* APICancellable.swift in Sources */,
 				838E1EC7242A150900A65D17 /* UIView+Layer.swift in Sources */,
 				838E1EE3242A164E00A65D17 /* API+RequestProgress.swift in Sources */,
 				838E1F63242A27F700A65D17 /* CharacterItem.swift in Sources */,
@@ -719,6 +756,7 @@
 				838E1F1F242A1CF700A65D17 /* Parser.swift in Sources */,
 				838E1EE1242A164E00A65D17 /* API+ReplyHandling.swift in Sources */,
 				833356F1242A0E67001FF9B6 /* ViewController.swift in Sources */,
+				832ACE12242C6B580092F0F0 /* InfiniteScrollingDataSource.swift in Sources */,
 				838E1F4E242A20A100A65D17 /* UIColor+Hex.swift in Sources */,
 				838E1EFF242A196500A65D17 /* NSError+Error.swift in Sources */,
 				83335707242A1054001FF9B6 /* Router.swift in Sources */,
@@ -728,6 +766,7 @@
 				838E1F51242A20C300A65D17 /* CGFloat+Utils.swift in Sources */,
 				83335710242A1087001FF9B6 /* ActivityIndicatorView.swift in Sources */,
 				838E1EF5242A176C00A65D17 /* HTTPURLResponse+Utils.swift in Sources */,
+				832ACE0B242C69B50092F0F0 /* Pagination.swift in Sources */,
 				833922DA242B0ADA00091329 /* UITableView+Utils.swift in Sources */,
 				838E1F40242A1FF800A65D17 /* NSMutableAttributedString+Utils.swift in Sources */,
 				838E1F5F242A26FD00A65D17 /* JSONDecoder+Utils.swift in Sources */,
@@ -757,6 +796,7 @@
 				838E1F44242A204000A65D17 /* UIFont+Utils.swift in Sources */,
 				838E1EF0242A165B00A65D17 /* AlamofireAPI.swift in Sources */,
 				838E1F19242A1C9A00A65D17 /* APIModel.swift in Sources */,
+				832ACE14242C6F250092F0F0 /* ScrollingPaginatorAlamofireAdapter.swift in Sources */,
 				838E1EF3242A16BA00A65D17 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -10,7 +10,6 @@ target 'Modulbank' do
   pod 'KeychainAccess', '~> 4.1.0'
   pod 'SnapKit', '~> 5.0.0'
   pod 'SwiftGen'
-  pod 'SideMenu'
   pod ‘RealmSwift’
   pod 'Kingfisher', '~> 5.0'
  

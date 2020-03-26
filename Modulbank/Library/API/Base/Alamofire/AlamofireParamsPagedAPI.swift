@@ -8,7 +8,7 @@
 
 import UIKit
 
-class AlamofireParamsPagedAPI: PostAPI, PagedAPI {
+class AlamofireParamsPagedAPI: AlamofireAPI, PagedAPI {
     var offset = 1
 
     let firstPageNumber = 1
@@ -21,8 +21,8 @@ class AlamofireParamsPagedAPI: PostAPI, PagedAPI {
     override var parameters: [String: Any] {
         var parameters = super.parameters
         
-        parameters[offsetParameterName] = offset
-        parameters[limitParameterName] = objectsPerPage
+        parameters["page"] = offset
+        //parameters[limitParameterName] = objectsPerPage
 
         return parameters
     }

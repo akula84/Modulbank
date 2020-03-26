@@ -10,12 +10,16 @@ import UIKit
 
 extension ViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        items?.count ?? 0
+        scrollingPaginator?.numberOfItems ?? 0
     }
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell: СharacterCell = tableView.dequeue(for: indexPath)
-        cell.item = items?.valueAt(indexPath.row)
+        cell.item = scrollingPaginator?[indexPath.row]
         return cell
+    }
+    
+    func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
+        scrollingPaginator?.increaseLastVisibleIndex(to: indexPath.row)
     }
 }
