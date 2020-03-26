@@ -14,6 +14,8 @@
 		832ACE0F242C6A950092F0F0 /* Range+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832ACE0E242C6A950092F0F0 /* Range+Utils.swift */; };
 		832ACE14242C6F250092F0F0 /* ScrollingPaginatorAlamofireAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832ACE13242C6F250092F0F0 /* ScrollingPaginatorAlamofireAdapter.swift */; };
 		832ACE16242C70B00092F0F0 /* APICancellable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832ACE15242C70B00092F0F0 /* APICancellable.swift */; };
+		832ACE18242C79A20092F0F0 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832ACE17242C79A20092F0F0 /* NetworkManager.swift */; };
+		832ACE1A242C79C80092F0F0 /* Monitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832ACE19242C79C80092F0F0 /* Monitor.swift */; };
 		833356ED242A0E67001FF9B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833356EC242A0E67001FF9B6 /* AppDelegate.swift */; };
 		833356F1242A0E67001FF9B6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833356F0242A0E67001FF9B6 /* ViewController.swift */; };
 		833356F4242A0E67001FF9B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 833356F2242A0E67001FF9B6 /* Main.storyboard */; };
@@ -96,6 +98,8 @@
 		832ACE0E242C6A950092F0F0 /* Range+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Range+Utils.swift"; sourceTree = "<group>"; };
 		832ACE13242C6F250092F0F0 /* ScrollingPaginatorAlamofireAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollingPaginatorAlamofireAdapter.swift; sourceTree = "<group>"; };
 		832ACE15242C70B00092F0F0 /* APICancellable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APICancellable.swift; sourceTree = "<group>"; };
+		832ACE17242C79A20092F0F0 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		832ACE19242C79C80092F0F0 /* Monitor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Monitor.swift; sourceTree = "<group>"; };
 		833356E9242A0E67001FF9B6 /* Modulbank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Modulbank.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		833356EC242A0E67001FF9B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		833356F0242A0E67001FF9B6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -290,6 +294,7 @@
 			isa = PBXGroup;
 			children = (
 				83335706242A1054001FF9B6 /* Router.swift */,
+				832ACE17242C79A20092F0F0 /* NetworkManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -501,6 +506,7 @@
 			isa = PBXGroup;
 			children = (
 				838E1EFB242A192900A65D17 /* MessageCenter */,
+				832ACE19242C79C80092F0F0 /* Monitor.swift */,
 				838E1F41242A202D00A65D17 /* MWPError.swift */,
 			);
 			path = Helpers;
@@ -770,6 +776,7 @@
 				8333570D242A105B001FF9B6 /* UIViewController+Storyboards.swift in Sources */,
 				838E1EC6242A150900A65D17 /* UIView+Constraint.swift in Sources */,
 				838E1EE0242A164E00A65D17 /* PagedAPI.swift in Sources */,
+				832ACE1A242C79C80092F0F0 /* Monitor.swift in Sources */,
 				838E1F0D242A1B9000A65D17 /* Localization.swift in Sources */,
 				838E1EC5242A150900A65D17 /* UIView+Utils.swift in Sources */,
 				833356ED242A0E67001FF9B6 /* AppDelegate.swift in Sources */,
@@ -783,6 +790,7 @@
 				838E1F3D242A1F5100A65D17 /* Date+Utils.swift in Sources */,
 				838E1F0F242A1C5D00A65D17 /* UIAlertController+Utils.swift in Sources */,
 				838E1F4A242A208500A65D17 /* Int+Utils.swift in Sources */,
+				832ACE18242C79A20092F0F0 /* NetworkManager.swift in Sources */,
 				838E1F17242A1C9A00A65D17 /* APIModel+CloudKit.swift in Sources */,
 				838E1F39242A1F3A00A65D17 /* Formatter.swift in Sources */,
 				838E1F16242A1C9A00A65D17 /* APIModel+Alamofire.swift in Sources */,

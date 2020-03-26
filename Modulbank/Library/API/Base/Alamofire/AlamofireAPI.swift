@@ -147,6 +147,9 @@ class AlamofireAPI: API {
             print("Headers", request.allHTTPHeaderFields as Any)
         }
         request.timeoutInterval = timeout
+        if NetworkManager.isOffline {
+            request.cachePolicy = .returnCacheDataDontLoad
+        }
     }
 
     var allHTTPHeaderFields: HTTPHeaders {
