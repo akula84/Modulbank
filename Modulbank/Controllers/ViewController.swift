@@ -13,7 +13,7 @@ class ViewController: UIViewController {
 
     typealias API = GetСharacters
     typealias Adapter = ScrollingPaginatorAlamofireAdapter<API>
-    
+
     lazy var scrollingPaginator: ScrollingPaginator<Adapter>? = {
         let api = API()
         let adapter = Adapter(api: api)
@@ -35,7 +35,7 @@ class ViewController: UIViewController {
         }
         return paginator
     }()
-    
+
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         scrollingPaginator?.start()
