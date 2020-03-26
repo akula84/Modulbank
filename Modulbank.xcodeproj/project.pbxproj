@@ -12,7 +12,6 @@
 		832ACE0B242C69B50092F0F0 /* Pagination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832ACE0A242C69B50092F0F0 /* Pagination.swift */; };
 		832ACE0D242C6A3B0092F0F0 /* Cancellable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832ACE0C242C6A3B0092F0F0 /* Cancellable.swift */; };
 		832ACE0F242C6A950092F0F0 /* Range+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832ACE0E242C6A950092F0F0 /* Range+Utils.swift */; };
-		832ACE12242C6B580092F0F0 /* InfiniteScrollingDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832ACE11242C6B580092F0F0 /* InfiniteScrollingDataSource.swift */; };
 		832ACE14242C6F250092F0F0 /* ScrollingPaginatorAlamofireAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832ACE13242C6F250092F0F0 /* ScrollingPaginatorAlamofireAdapter.swift */; };
 		832ACE16242C70B00092F0F0 /* APICancellable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832ACE15242C70B00092F0F0 /* APICancellable.swift */; };
 		833356ED242A0E67001FF9B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833356EC242A0E67001FF9B6 /* AppDelegate.swift */; };
@@ -95,7 +94,6 @@
 		832ACE0A242C69B50092F0F0 /* Pagination.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pagination.swift; sourceTree = "<group>"; };
 		832ACE0C242C6A3B0092F0F0 /* Cancellable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cancellable.swift; sourceTree = "<group>"; };
 		832ACE0E242C6A950092F0F0 /* Range+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Range+Utils.swift"; sourceTree = "<group>"; };
-		832ACE11242C6B580092F0F0 /* InfiniteScrollingDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfiniteScrollingDataSource.swift; sourceTree = "<group>"; };
 		832ACE13242C6F250092F0F0 /* ScrollingPaginatorAlamofireAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollingPaginatorAlamofireAdapter.swift; sourceTree = "<group>"; };
 		832ACE15242C70B00092F0F0 /* APICancellable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APICancellable.swift; sourceTree = "<group>"; };
 		833356E9242A0E67001FF9B6 /* Modulbank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Modulbank.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -368,7 +366,6 @@
 			children = (
 				832ACE15242C70B00092F0F0 /* APICancellable.swift */,
 				832ACE0C242C6A3B0092F0F0 /* Cancellable.swift */,
-				832ACE11242C6B580092F0F0 /* InfiniteScrollingDataSource.swift */,
 				832ACE08242C69920092F0F0 /* PaginatedItemsProvider.swift */,
 				832ACE0A242C69B50092F0F0 /* Pagination.swift */,
 				832ACE06242C69770092F0F0 /* ScrollingPaginator.swift */,
@@ -756,7 +753,6 @@
 				838E1F1F242A1CF700A65D17 /* Parser.swift in Sources */,
 				838E1EE1242A164E00A65D17 /* API+ReplyHandling.swift in Sources */,
 				833356F1242A0E67001FF9B6 /* ViewController.swift in Sources */,
-				832ACE12242C6B580092F0F0 /* InfiniteScrollingDataSource.swift in Sources */,
 				838E1F4E242A20A100A65D17 /* UIColor+Hex.swift in Sources */,
 				838E1EFF242A196500A65D17 /* NSError+Error.swift in Sources */,
 				83335707242A1054001FF9B6 /* Router.swift in Sources */,
